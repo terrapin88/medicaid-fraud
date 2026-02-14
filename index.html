@@ -19,26 +19,30 @@
     .section h2 { font-size: 1.5rem; margin-bottom: 1rem; }
     .flag-count { background: var(--warning); color: var(--bg); padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.85rem; margin-left: 0.5rem; }
     table { width: 100%; border-collapse: collapse; font-size: 0.9rem; background: var(--card-bg); }
-    th, td { padding: 1rem; text-align: left; border-bottom: 1px solid var(--border); }
-    th { background: #1a1a1a; font-weight: 600; text-transform: uppercase; font-size: 0.75rem; color: var(--muted); }
+    th, td { padding: 0.75rem 1rem; text-align: left; border-bottom: 1px solid var(--border); }
+    th { background: #1a1a1a; font-weight: 600; text-transform: uppercase; font-size: 0.7rem; color: var(--muted); }
     tr:hover { background: rgba(255,255,255,0.02); }
-    .npi-link { color: var(--accent); text-decoration: none; font-family: monospace; }
-    .npi-link:hover { text-decoration: underline; }
+    .provider-name { font-weight: 600; color: var(--fg); }
+    .provider-name a { color: var(--fg); text-decoration: none; }
+    .provider-name a:hover { color: var(--accent); text-decoration: underline; }
+    .npi { font-family: monospace; color: var(--muted); font-size: 0.8rem; }
+    .location { color: var(--muted); font-size: 0.85rem; }
     .money { font-family: monospace; color: var(--accent); }
     .high-risk { color: var(--warning); font-weight: 600; }
-    .badge { display: inline-block; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.7rem; font-weight: 600; text-transform: uppercase; }
+    .badge { display: inline-block; padding: 0.2rem 0.4rem; border-radius: 4px; font-size: 0.65rem; font-weight: 600; text-transform: uppercase; }
     .badge-outlier { background: rgba(255,107,107,0.2); color: var(--warning); }
     .badge-volume { background: rgba(255,193,7,0.2); color: #ffc107; }
     .badge-ghost { background: rgba(156,39,176,0.2); color: #ce93d8; }
     .footer { margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.85rem; }
     .footer a { color: var(--accent); }
     .loading { text-align: center; padding: 4rem; color: var(--muted); }
+    .type-tag { font-size: 0.7rem; color: var(--muted); background: var(--border); padding: 0.15rem 0.4rem; border-radius: 3px; margin-left: 0.5rem; }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>🏥 Medicaid Fraud Audit</h1>
-    <p class="subtitle">Public transparency tool analyzing Medicaid spending (2018-2024)</p>
+    <p class="subtitle">Public transparency tool analyzing Medicaid provider spending (2018-2024)</p>
     
     <div id="content" class="loading">Loading analysis data...</div>
   </div>
@@ -66,6 +70,21 @@
       }
     }
     
+    function providerCell(r) {
+      const name = r.provider_name || 'Unknown Provider';
+      const loc = r.state ? `${r.city || ''}, ${r.state}`.replace(/^, /, '') : '';
+      const type = r.provider_type === 'Organization' ? 'Org' : 'Individual';
+      return `
+        <td>
+          <div class="provider-name">
+            <a href="https://npiregistry.cms.hhs.gov/provider-view/${r.npi}" target="_blank">${name}</a>
+            <span class="type-tag">${type}</span>
+          </div>
+          <div class="npi">NPI: ${r.npi}${loc ? ' · ' + loc : ''}</div>
+        </td>
+      `;
+    }
+    
     function render(stats, flags) {
       const totalFlagged = flags.summary.high_volume_outliers + flags.summary.impossible_volume + flags.summary.ghost_patient_patterns;
       
@@ -79,12 +98,13 @@
         
         <div class="section">
           <h2>🚨 Statistical Outliers <span class="flag-count">${flags.summary.high_volume_outliers}</span></h2>
+          <p style="color:var(--muted);margin-bottom:1rem;font-size:0.9rem">Providers with payments more than 5 standard deviations above the mean</p>
           <table>
-            <thead><tr><th>Provider NPI</th><th>Total Paid</th><th>Claims</th><th>Z-Score</th><th>Flag</th></tr></thead>
+            <thead><tr><th>Provider</th><th>Total Paid</th><th>Claims</th><th>Z-Score</th><th>Flag</th></tr></thead>
             <tbody>
-              ${flags.flags.high_volume_outliers.slice(0,25).map(r => `
+              ${flags.flags.high_volume_outliers.slice(0,30).map(r => `
                 <tr>
-                  <td><a class="npi-link" href="https://npiregistry.cms.hhs.gov/provider-view/${r.npi}" target="_blank">${r.npi}</a></td>
+                  ${providerCell(r)}
                   <td class="money">${formatMoney(r.total_paid)}</td>
                   <td>${formatNumber(r.total_claims)}</td>
                   <td class="high-risk">${r.paid_zscore?.toFixed(1)}σ</td>
@@ -97,12 +117,13 @@
         
         <div class="section">
           <h2>⚡ Impossible Daily Volumes <span class="flag-count">${flags.summary.impossible_volume}</span></h2>
+          <p style="color:var(--muted);margin-bottom:1rem;font-size:0.9rem">Providers averaging more than 100 claims per working day in a month</p>
           <table>
-            <thead><tr><th>Provider NPI</th><th>Peak Month</th><th>Monthly Claims</th><th>Claims/Day</th><th>Flag</th></tr></thead>
+            <thead><tr><th>Provider</th><th>Peak Month</th><th>Monthly Claims</th><th>Claims/Day</th><th>Flag</th></tr></thead>
             <tbody>
-              ${flags.flags.impossible_volume.slice(0,25).map(r => `
+              ${flags.flags.impossible_volume.slice(0,30).map(r => `
                 <tr>
-                  <td><a class="npi-link" href="https://npiregistry.cms.hhs.gov/provider-view/${r.npi}" target="_blank">${r.npi}</a></td>
+                  ${providerCell(r)}
                   <td>${r.peak_month?.slice(0,7) || 'N/A'}</td>
                   <td>${formatNumber(r.monthly_claims)}</td>
                   <td class="high-risk">${r.claims_per_day?.toFixed(0)}/day</td>
@@ -115,12 +136,13 @@
         
         <div class="section">
           <h2>👻 Ghost Patient Patterns <span class="flag-count">${flags.summary.ghost_patient_patterns}</span></h2>
+          <p style="color:var(--muted);margin-bottom:1rem;font-size:0.9rem">Providers with more than 50 claims per unique patient (potential repeat billing)</p>
           <table>
-            <thead><tr><th>Provider NPI</th><th>Total Claims</th><th>Unique Patients</th><th>Claims/Patient</th><th>Flag</th></tr></thead>
+            <thead><tr><th>Provider</th><th>Total Claims</th><th>Unique Patients</th><th>Claims/Patient</th><th>Flag</th></tr></thead>
             <tbody>
-              ${flags.flags.ghost_patient_patterns.slice(0,25).map(r => `
+              ${flags.flags.ghost_patient_patterns.slice(0,30).map(r => `
                 <tr>
-                  <td><a class="npi-link" href="https://npiregistry.cms.hhs.gov/provider-view/${r.npi}" target="_blank">${r.npi}</a></td>
+                  ${providerCell(r)}
                   <td>${formatNumber(r.total_claims)}</td>
                   <td>${formatNumber(r.total_beneficiaries)}</td>
                   <td class="high-risk">${r.claims_per_beneficiary?.toFixed(0)}x</td>
@@ -132,8 +154,9 @@
         </div>
         
         <div class="footer">
-          <p>Data: <a href="https://opendata.hhs.gov/datasets/medicaid-provider-spending/" target="_blank">HHS Open Data - Medicaid Provider Spending</a> (T-MSIS)</p>
-          <p>Generated: ${flags.generated_at} | Flags indicate statistical anomalies for investigation, not proof of fraud.</p>
+          <p><strong>Data Source:</strong> <a href="https://opendata.hhs.gov/datasets/medicaid-provider-spending/" target="_blank">HHS Open Data - Medicaid Provider Spending</a> (T-MSIS)</p>
+          <p><strong>Analysis Date:</strong> ${flags.generated_at}</p>
+          <p style="margin-top:1rem"><em>⚠️ These flags indicate statistical anomalies that warrant further investigation. They do not constitute proof of fraud. Provider names obtained from NPI Registry.</em></p>
         </div>
       `;
     }

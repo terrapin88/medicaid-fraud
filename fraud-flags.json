@@ -14,7 +14,12 @@
         "total_beneficiaries": 5596134,
         "paid_zscore": 317.39133979218053,
         "claims_zscore": 204.3057799724064,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "PUBLIC PARTNERSHIPS LLC",
+        "provider_type": "Organization",
+        "city": "LATHAM",
+        "state": "NY",
+        "taxonomy": "Case Management"
       },
       {
         "npi": "1699703827",
@@ -23,7 +28,12 @@
         "total_beneficiaries": 10549232,
         "paid_zscore": 299.72914246846386,
         "claims_zscore": 70.21041689973457,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "LOS ANGELES COUNTY DEPARTMENT OF MENTAL HEALTH",
+        "provider_type": "Organization",
+        "city": "LOS ANGELES",
+        "state": "CA",
+        "taxonomy": "Psychiatric Unit"
       },
       {
         "npi": "1376609297",
@@ -32,7 +42,12 @@
         "total_beneficiaries": 3345513,
         "paid_zscore": 246.3497713462226,
         "claims_zscore": 144.5466197201072,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "TEMPUS UNLIMITED, INC.",
+        "provider_type": "Organization",
+        "city": "STOUGHTON",
+        "state": "MA",
+        "taxonomy": "Voluntary or Charitable"
       },
       {
         "npi": "1699725143",
@@ -41,7 +56,12 @@
         "total_beneficiaries": 16440856,
         "paid_zscore": 136.7256310676431,
         "claims_zscore": 245.15415559504973,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "MODIVCARE SOLUTIONS, LLC",
+        "provider_type": "Organization",
+        "city": "DENVER",
+        "state": "CO",
+        "taxonomy": "Taxi"
       },
       {
         "npi": "1922467554",
@@ -50,7 +70,12 @@
         "total_beneficiaries": 1186413,
         "paid_zscore": 133.7539476462815,
         "claims_zscore": 49.96284851189923,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "FREEDOM CARE LLC",
+        "provider_type": "Organization",
+        "city": "NEW HYDE PARK",
+        "state": "NY",
+        "taxonomy": "Home Health"
       },
       {
         "npi": "1710176151",
@@ -59,7 +84,12 @@
         "total_beneficiaries": 2441087,
         "paid_zscore": 118.61690181398825,
         "claims_zscore": 80.87968799132557,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "GUARDIANTRAC. LLC",
+        "provider_type": "Organization",
+        "city": "STURGIS",
+        "state": "MI",
+        "taxonomy": "Supports Brokerage"
       },
       {
         "npi": "1629436241",
@@ -68,7 +98,12 @@
         "total_beneficiaries": 1174610,
         "paid_zscore": 114.74373760144044,
         "claims_zscore": 37.15052951690008,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "DEPARTMENT OF INTELLECTUAL AND DEVELOPMENTAL DISABILITIES, STATE OF TN",
+        "provider_type": "Organization",
+        "city": "NASHVILLE",
+        "state": "TN",
+        "taxonomy": "Public Health or Welfare"
       },
       {
         "npi": "1982757688",
@@ -77,7 +112,12 @@
         "total_beneficiaries": 594985,
         "paid_zscore": 99.65632284957492,
         "claims_zscore": 4.370122511537956,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "ALABAMA DEPARTMENT OF MENTAL HEALTH AND MENTAL RETARDATION",
+        "provider_type": "Organization",
+        "city": "MONTGOMERY",
+        "state": "AL",
+        "taxonomy": "Community/Behavioral Health"
       },
       {
         "npi": "1538649983",
@@ -86,7 +126,12 @@
         "total_beneficiaries": 1069174,
         "paid_zscore": 93.05961920311016,
         "claims_zscore": 50.38506959240766,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "CONSUMER DIRECT CARE NETWORK VIRGINIA",
+        "provider_type": "Organization",
+        "city": "MISSOULA",
+        "state": "MT",
+        "taxonomy": "Case Manager/Care Coordinator"
       },
       {
         "npi": "1528263910",
@@ -95,7 +140,12 @@
         "total_beneficiaries": 1617142,
         "paid_zscore": 76.37211692146751,
         "claims_zscore": 10.530754340418103,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "COUNTY OF SANTA CLARA",
+        "provider_type": "Organization",
+        "city": "SAN JOSE",
+        "state": "CA",
+        "taxonomy": "Community/Behavioral Health"
       },
       {
         "npi": "1962650622",
@@ -104,7 +154,12 @@
         "total_beneficiaries": 463218,
         "paid_zscore": 74.33407786493046,
         "claims_zscore": 25.515536751168785,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "AMERICAN BUSINESS INSTITUTE CORP",
+        "provider_type": "Organization",
+        "city": "FLUSHING",
+        "state": "NY",
+        "taxonomy": "Home Health"
       },
       {
         "npi": "1720151046",
@@ -113,7 +168,12 @@
         "total_beneficiaries": 357665,
         "paid_zscore": 65.21912844730699,
         "claims_zscore": 17.97926245501636,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "PREMIER HOME HEALTH CARE SERVICES INC",
+        "provider_type": "Organization",
+        "city": "NEW YORK",
+        "state": "NY",
+        "taxonomy": "Home Health"
       },
       {
         "npi": "1356709976",
@@ -122,7 +182,12 @@
         "total_beneficiaries": 389567,
         "paid_zscore": 64.166317742346,
         "claims_zscore": 11.96686013036876,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "DEPARTMENT OF INTELLECTUAL AND DEVELOPMENTAL DISABILITIES, STATE OF TN",
+        "provider_type": "Organization",
+        "city": "NASHVILLE",
+        "state": "TN",
+        "taxonomy": "Public Health or Welfare"
       },
       {
         "npi": "1396051694",
@@ -131,7 +196,12 @@
         "total_beneficiaries": 461789,
         "paid_zscore": 63.71591100095128,
         "claims_zscore": 21.299408931068726,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "ASSISTCAREHOME HEALTHCARE SERVICES",
+        "provider_type": "Organization",
+        "city": "BROOKLYN",
+        "state": "NY",
+        "taxonomy": "Home Health"
       },
       {
         "npi": "1538144910",
@@ -140,7 +210,12 @@
         "total_beneficiaries": 92077561,
         "paid_zscore": 63.44295712844685,
         "claims_zscore": 236.48930773558664,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1447261540",
@@ -149,7 +224,12 @@
         "total_beneficiaries": 2328336,
         "paid_zscore": 61.794118938354856,
         "claims_zscore": 19.769779523551495,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "COUNTY OF RIVERSIDE",
+        "provider_type": "Organization",
+        "city": "RIVERSIDE",
+        "state": "CA",
+        "taxonomy": "Community/Behavioral Health"
       },
       {
         "npi": "1750504064",
@@ -158,7 +238,12 @@
         "total_beneficiaries": 224187,
         "paid_zscore": 59.62833123222176,
         "claims_zscore": 3.7151202567689277,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "DEPARTMENT OF DEVELOPMENTAL SERVICES",
+        "provider_type": "Organization",
+        "city": "BOSTON",
+        "state": "MA",
+        "taxonomy": "Case Management"
       },
       {
         "npi": "1417099789",
@@ -167,7 +252,12 @@
         "total_beneficiaries": 1302440,
         "paid_zscore": 59.37566979955256,
         "claims_zscore": 14.010736255377296,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "CITY & COUNTY OF SAN FRANCISCO",
+        "provider_type": "Organization",
+        "city": "SAN FRANCISCO",
+        "state": "CA",
+        "taxonomy": "Supports Brokerage"
       },
       {
         "npi": "1073055208",
@@ -176,7 +266,12 @@
         "total_beneficiaries": 3026410,
         "paid_zscore": 56.61853499728037,
         "claims_zscore": 23.929059208156925,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "COMPASS HEALTH, INC.",
+        "provider_type": "Organization",
+        "city": "CLINTON",
+        "state": "MO",
+        "taxonomy": "Community/Behavioral Health"
       },
       {
         "npi": "1376554592",
@@ -185,7 +280,12 @@
         "total_beneficiaries": 1193380,
         "paid_zscore": 54.1043163101479,
         "claims_zscore": 3.5586427530611116,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "CITY OF CHICAGO",
+        "provider_type": "Organization",
+        "city": "CHICAGO",
+        "state": "IL",
+        "taxonomy": "Emergency Medical Technician, Paramedic"
       },
       {
         "npi": "1518096411",
@@ -194,7 +294,12 @@
         "total_beneficiaries": 197206,
         "paid_zscore": 50.49425633206459,
         "claims_zscore": 3.475447916510082,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "COMMONWEALTH OF MASSACHUSETS",
+        "provider_type": "Organization",
+        "city": "BOSTON",
+        "state": "MA",
+        "taxonomy": "Case Management"
       },
       {
         "npi": "1700090834",
@@ -203,7 +308,12 @@
         "total_beneficiaries": 1524414,
         "paid_zscore": 49.72114279447188,
         "claims_zscore": 34.078326146244194,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "LOS ANGELES COUNTY DEPARTMENT OF PUBLIC HEALTH",
+        "provider_type": "Organization",
+        "city": "ALHAMBRA",
+        "state": "CA",
+        "taxonomy": "Public Health or Welfare"
       },
       {
         "npi": "1780816991",
@@ -212,7 +322,12 @@
         "total_beneficiaries": 328024,
         "paid_zscore": 48.906042373566244,
         "claims_zscore": 15.67403424947765,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "NAE EDISON LLC",
+        "provider_type": "Organization",
+        "city": "BROOKLYN",
+        "state": "NY",
+        "taxonomy": "Home Health"
       },
       {
         "npi": "1275657553",
@@ -221,7 +336,12 @@
         "total_beneficiaries": 377858,
         "paid_zscore": 48.65379892485483,
         "claims_zscore": 17.284506800623483,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "HEART TO HEART HOME CARE, INC.",
+        "provider_type": "Organization",
+        "city": "BROOKLYN",
+        "state": "NY",
+        "taxonomy": "Home Health"
       },
       {
         "npi": "1134250475",
@@ -230,7 +350,12 @@
         "total_beneficiaries": 259050,
         "paid_zscore": 48.46555150444361,
         "claims_zscore": 3.192668794560843,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "COMMONWEALTH OF MASS-DDS",
+        "provider_type": "Organization",
+        "city": "BOSTON",
+        "state": "MA",
+        "taxonomy": "Case Management"
       },
       {
         "npi": "1376097303",
@@ -239,7 +364,12 @@
         "total_beneficiaries": 304210,
         "paid_zscore": 47.75491895871357,
         "claims_zscore": 15.166986034426534,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "MARKS HOMECARE AGENCY INC",
+        "provider_type": "Organization",
+        "city": "CORONA",
+        "state": "NY",
+        "taxonomy": "In Home Supportive Care"
       },
       {
         "npi": "1578778726",
@@ -248,7 +378,12 @@
         "total_beneficiaries": 17395896,
         "paid_zscore": 47.71433284106719,
         "claims_zscore": 53.561603440555345,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "YALE NEW HAVEN HOSPITAL",
+        "provider_type": "Organization",
+        "city": "NEW HAVEN",
+        "state": "CT",
+        "taxonomy": "General Acute Care Hospital"
       },
       {
         "npi": "1083783013",
@@ -257,7 +392,12 @@
         "total_beneficiaries": 264344,
         "paid_zscore": 47.571745996922324,
         "claims_zscore": 13.307045078505682,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "NEW PARTNERS, INC",
+        "provider_type": "Organization",
+        "city": "NEW YORK",
+        "state": "NY",
+        "taxonomy": "Hospice Care, Community Based"
       },
       {
         "npi": "1326168840",
@@ -266,7 +406,12 @@
         "total_beneficiaries": 621736,
         "paid_zscore": 47.40920602583615,
         "claims_zscore": 7.471358931409446,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "DEPARTMENT OF HEALTH AND SENIOR SERVICES",
+        "provider_type": "Organization",
+        "city": "TRENTON",
+        "state": "NJ",
+        "taxonomy": "Specialist"
       },
       {
         "npi": "1659402303",
@@ -275,7 +420,12 @@
         "total_beneficiaries": 1263528,
         "paid_zscore": 47.16519500554776,
         "claims_zscore": 13.905108135130616,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "ALAMEDA COUNTY BEHAVIORAL HEALTH CARE",
+        "provider_type": "Organization",
+        "city": "OAKLAND",
+        "state": "CA",
+        "taxonomy": "Community/Behavioral Health"
       },
       {
         "npi": "1184703415",
@@ -284,7 +434,12 @@
         "total_beneficiaries": 227919,
         "paid_zscore": 46.889540918168635,
         "claims_zscore": 11.347697857862835,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "CONCEPTS OF INDEPENDENCE, INC.",
+        "provider_type": "Organization",
+        "city": "NEW YORK",
+        "state": "NY",
+        "taxonomy": "Home Health"
       },
       {
         "npi": "1720145378",
@@ -293,7 +448,12 @@
         "total_beneficiaries": 655257,
         "paid_zscore": 46.856528681925894,
         "claims_zscore": 23.935105768081385,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "ACUMEN FISCAL AGENT LLC",
+        "provider_type": "Organization",
+        "city": "MESA",
+        "state": "AZ",
+        "taxonomy": "Case Manager/Care Coordinator"
       },
       {
         "npi": "1194934471",
@@ -302,7 +462,12 @@
         "total_beneficiaries": 1679994,
         "paid_zscore": 46.51956028178269,
         "claims_zscore": 14.802521439341145,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "COUNTY OF SAN BERNARDINO",
+        "provider_type": "Organization",
+        "city": "SAN BERNARDINO",
+        "state": "CA",
+        "taxonomy": "Clinic/Center, Mental Health (Including Community Mental Health Center)"
       },
       {
         "npi": "1396049987",
@@ -311,7 +476,12 @@
         "total_beneficiaries": 240183,
         "paid_zscore": 46.04809437711557,
         "claims_zscore": 6.2074526115967,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "COMMUNITY ASSISTANCE RESOURCES & EXTENDED SERVICES INC",
+        "provider_type": "Organization",
+        "city": "NEW YORK",
+        "state": "NY",
+        "taxonomy": "Day Training, Developmentally Disabled Services"
       },
       {
         "npi": "1518098359",
@@ -320,7 +490,12 @@
         "total_beneficiaries": 427194,
         "paid_zscore": 45.797001265667866,
         "claims_zscore": 25.4431123494832,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "STAVROS CENTER FOR INDEPENDENT LIVING, INC.",
+        "provider_type": "Organization",
+        "city": "AMHERST",
+        "state": "MA",
+        "taxonomy": "Case Management"
       },
       {
         "npi": "1518049485",
@@ -329,7 +504,12 @@
         "total_beneficiaries": 292702,
         "paid_zscore": 45.282782511013444,
         "claims_zscore": 12.94394414659603,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "HEALTH ACQUISITION CORP.",
+        "provider_type": "Organization",
+        "city": "DALLAS",
+        "state": "TX",
+        "taxonomy": "Home Health"
       },
       {
         "npi": "1932341898",
@@ -338,7 +518,12 @@
         "total_beneficiaries": 283973,
         "paid_zscore": 44.009469691722046,
         "claims_zscore": 0.6275227452210268,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "MAINS'L FLORIDA, INC.",
+        "provider_type": "Organization",
+        "city": "BROOKLYN PARK",
+        "state": "MN",
+        "taxonomy": "Home Health"
       },
       {
         "npi": "1952476988",
@@ -347,7 +532,12 @@
         "total_beneficiaries": 14680462,
         "paid_zscore": 42.43228801049711,
         "claims_zscore": 38.88796161392971,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "MONTEFIORE MEDICAL CENTER",
+        "provider_type": "Organization",
+        "city": "BRONX",
+        "state": "NY",
+        "taxonomy": "General Acute Care Hospital"
       },
       {
         "npi": "1457410904",
@@ -356,7 +546,12 @@
         "total_beneficiaries": 252276,
         "paid_zscore": 42.093391965585106,
         "claims_zscore": 12.65501601924168,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "CARING PROFESSIONALS, INC",
+        "provider_type": "Organization",
+        "city": "FOREST HILLS",
+        "state": "NY",
+        "taxonomy": "Home Health"
       },
       {
         "npi": "1093834020",
@@ -365,7 +560,12 @@
         "total_beneficiaries": 4556652,
         "paid_zscore": 40.19833564020239,
         "claims_zscore": 116.07569340994395,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "PURFOODS, LLC",
+        "provider_type": "Organization",
+        "city": "ANKENY",
+        "state": "IA",
+        "taxonomy": "Dietitian, Registered"
       },
       {
         "npi": "1043386659",
@@ -374,7 +574,12 @@
         "total_beneficiaries": 1851576,
         "paid_zscore": 39.86709613458644,
         "claims_zscore": 9.765548067266788,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "COUNTY OF SACRAMENTO",
+        "provider_type": "Organization",
+        "city": "SACRAMENTO",
+        "state": "CA",
+        "taxonomy": "Case Manager/Care Coordinator"
       },
       {
         "npi": "1134260078",
@@ -383,7 +588,12 @@
         "total_beneficiaries": 5029593,
         "paid_zscore": 39.48061556841908,
         "claims_zscore": 78.2182477433092,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "MEDICAL TRANSPORTATION MANAGEMENT, INC.",
+        "provider_type": "Organization",
+        "city": "LAKE ST LOUIS",
+        "state": "MO",
+        "taxonomy": "Secured Medical Transport (VAN)"
       },
       {
         "npi": "1124304621",
@@ -392,7 +602,12 @@
         "total_beneficiaries": 465275,
         "paid_zscore": 39.17523984229227,
         "claims_zscore": 12.677563131249162,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "PUBLIC PARTNERSHIPS-COLORADO, INC.",
+        "provider_type": "Organization",
+        "city": "BOSTON",
+        "state": "MA",
+        "taxonomy": "Supports Brokerage"
       },
       {
         "npi": "1245354000",
@@ -401,7 +616,12 @@
         "total_beneficiaries": 138263,
         "paid_zscore": 38.92703247384383,
         "claims_zscore": 1.7091102579740858,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "COMMONWEALTH OF MASSACHUSETTS-DDS",
+        "provider_type": "Organization",
+        "city": "BOSTON",
+        "state": "MA",
+        "taxonomy": "Case Management"
       },
       {
         "npi": "1871821710",
@@ -410,7 +630,12 @@
         "total_beneficiaries": 241832,
         "paid_zscore": 38.21879339921181,
         "claims_zscore": 10.765830293445212,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "PLATINUM HOME HEALTH CARE INC.",
+        "provider_type": "Organization",
+        "city": "BROOKLYN",
+        "state": "NY",
+        "taxonomy": "Home Health"
       },
       {
         "npi": "1679525919",
@@ -419,7 +644,12 @@
         "total_beneficiaries": 12948304,
         "paid_zscore": 38.11584162330234,
         "claims_zscore": 36.39268793552423,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "THE CLEVELAND CLINIC FOUNDATION",
+        "provider_type": "Organization",
+        "city": "CLEVELAND",
+        "state": "OH",
+        "taxonomy": "General Acute Care Hospital"
       },
       {
         "npi": "1053321869",
@@ -428,7 +658,12 @@
         "total_beneficiaries": 773734,
         "paid_zscore": 37.879331126617195,
         "claims_zscore": 33.61789062488787,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "GIRLING HEALTH CARE, INC.",
+        "provider_type": "Organization",
+        "city": "LISLE",
+        "state": "IL",
+        "taxonomy": "Respite Care"
       },
       {
         "npi": "1033571658",
@@ -437,7 +672,12 @@
         "total_beneficiaries": 251721,
         "paid_zscore": 37.43745446919006,
         "claims_zscore": 12.918312287337928,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "C AND T HOMECARE SERVICES LLC",
+        "provider_type": "Organization",
+        "city": "GREAT NECK",
+        "state": "NY",
+        "taxonomy": "In Home Supportive Care"
       },
       {
         "npi": "1801060363",
@@ -446,7 +686,12 @@
         "total_beneficiaries": 250306,
         "paid_zscore": 37.185618651688806,
         "claims_zscore": 12.33287279049505,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "HOME FAMILY CARE, INC",
+        "provider_type": "Organization",
+        "city": "BROOKLYN",
+        "state": "NY",
+        "taxonomy": "Home Health"
       },
       {
         "npi": "1730438706",
@@ -455,7 +700,12 @@
         "total_beneficiaries": 227232,
         "paid_zscore": 37.095289979018446,
         "claims_zscore": 11.149764082986174,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "HUMAN CARE LLC",
+        "provider_type": "Organization",
+        "city": "BROOKLYN",
+        "state": "NY",
+        "taxonomy": "Home Health"
       },
       {
         "npi": "1104963347",
@@ -464,7 +714,9 @@
         "total_beneficiaries": 1554907,
         "paid_zscore": 35.599631956399115,
         "claims_zscore": 11.162660830716625,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1124494059",
@@ -473,7 +725,9 @@
         "total_beneficiaries": 877965,
         "paid_zscore": 34.46368959042628,
         "claims_zscore": 2.0041623485049413,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1134152986",
@@ -482,7 +736,9 @@
         "total_beneficiaries": 8541239,
         "paid_zscore": 34.311603896423,
         "claims_zscore": 25.016672791738316,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1770022691",
@@ -491,7 +747,9 @@
         "total_beneficiaries": 264684,
         "paid_zscore": 34.21035162268881,
         "claims_zscore": 12.818416560875058,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1346218294",
@@ -500,7 +758,9 @@
         "total_beneficiaries": 12530368,
         "paid_zscore": 33.91103800343737,
         "claims_zscore": 32.84324343155329,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1457562811",
@@ -509,7 +769,9 @@
         "total_beneficiaries": 202920,
         "paid_zscore": 33.88757390793397,
         "claims_zscore": 10.948124058276296,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1184166027",
@@ -518,7 +780,9 @@
         "total_beneficiaries": 1945626,
         "paid_zscore": 33.524843989053394,
         "claims_zscore": 14.790917781233095,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1528338282",
@@ -527,7 +791,9 @@
         "total_beneficiaries": 231057,
         "paid_zscore": 33.51293719008425,
         "claims_zscore": 10.919744383570595,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1447393319",
@@ -536,7 +802,9 @@
         "total_beneficiaries": 194048,
         "paid_zscore": 32.902071293680876,
         "claims_zscore": 9.422685809200683,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1528315397",
@@ -545,7 +813,9 @@
         "total_beneficiaries": 196653,
         "paid_zscore": 32.65142529249983,
         "claims_zscore": 10.605500839665035,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1821275801",
@@ -554,7 +824,9 @@
         "total_beneficiaries": 192845,
         "paid_zscore": 32.55513366173363,
         "claims_zscore": 9.416220361088683,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1992920417",
@@ -563,7 +835,9 @@
         "total_beneficiaries": 550183,
         "paid_zscore": 32.34539151693332,
         "claims_zscore": 21.13333570067356,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1770538001",
@@ -572,7 +846,9 @@
         "total_beneficiaries": 1491247,
         "paid_zscore": 32.12550811053953,
         "claims_zscore": 6.83981213857631,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1457601965",
@@ -581,7 +857,9 @@
         "total_beneficiaries": 3358464,
         "paid_zscore": 31.940922703898003,
         "claims_zscore": 60.50107817434416,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1063497451",
@@ -590,7 +868,12 @@
         "total_beneficiaries": 101685925,
         "paid_zscore": 31.6547063562993,
         "claims_zscore": 249.11381912232963,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1518911338",
@@ -599,7 +882,9 @@
         "total_beneficiaries": 6877120,
         "paid_zscore": 31.607874052604267,
         "claims_zscore": 20.003528238462657,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1063812105",
@@ -608,7 +893,9 @@
         "total_beneficiaries": 239911,
         "paid_zscore": 31.511627803292047,
         "claims_zscore": 12.03931868054789,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1407897309",
@@ -617,7 +904,9 @@
         "total_beneficiaries": 7363021,
         "paid_zscore": 31.274021051138963,
         "claims_zscore": 22.676387742721897,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1104253558",
@@ -626,7 +915,9 @@
         "total_beneficiaries": 402703,
         "paid_zscore": 31.266189204220304,
         "claims_zscore": 18.758551566907403,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1952346876",
@@ -635,7 +926,9 @@
         "total_beneficiaries": 116046,
         "paid_zscore": 31.258731139401153,
         "claims_zscore": 3.6326015603901745,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1932106010",
@@ -644,7 +937,9 @@
         "total_beneficiaries": 146324,
         "paid_zscore": 31.047521208304776,
         "claims_zscore": 7.424600537475515,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1730244294",
@@ -653,7 +948,9 @@
         "total_beneficiaries": 166215,
         "paid_zscore": 30.732245306435818,
         "claims_zscore": 8.590022601892093,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1649363342",
@@ -662,7 +959,9 @@
         "total_beneficiaries": 177738,
         "paid_zscore": 30.2744618935994,
         "claims_zscore": 8.274941281611458,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1265926687",
@@ -671,7 +970,9 @@
         "total_beneficiaries": 259302,
         "paid_zscore": 30.029763156638317,
         "claims_zscore": 11.19306437280668,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1366479099",
@@ -680,7 +981,12 @@
         "total_beneficiaries": 108161020,
         "paid_zscore": 29.488927289029935,
         "claims_zscore": 254.080990697023,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "UNILAB CORPORATION",
+        "provider_type": "Organization",
+        "city": "WEST HILLS",
+        "state": "CA",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1194165985",
@@ -689,7 +995,9 @@
         "total_beneficiaries": 211489,
         "paid_zscore": 29.44218255002328,
         "claims_zscore": 8.911353096492249,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1437175734",
@@ -698,7 +1006,9 @@
         "total_beneficiaries": 6291446,
         "paid_zscore": 29.04600466969271,
         "claims_zscore": 19.21750732020993,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1730491945",
@@ -707,7 +1017,9 @@
         "total_beneficiaries": 7277905,
         "paid_zscore": 28.369270041392394,
         "claims_zscore": 17.7743532811907,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1225255375",
@@ -716,7 +1028,9 @@
         "total_beneficiaries": 1082521,
         "paid_zscore": 28.336840063734577,
         "claims_zscore": 12.349958420100881,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1558672279",
@@ -725,7 +1039,9 @@
         "total_beneficiaries": 6431366,
         "paid_zscore": 28.295280982838136,
         "claims_zscore": 16.45312985323858,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1932145778",
@@ -734,7 +1050,9 @@
         "total_beneficiaries": 54552026,
         "paid_zscore": 28.12851698623447,
         "claims_zscore": 130.11466271829357,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1447488721",
@@ -743,7 +1061,9 @@
         "total_beneficiaries": 140006,
         "paid_zscore": 28.077184584924623,
         "claims_zscore": 7.7771177129511235,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1326111337",
@@ -752,7 +1072,9 @@
         "total_beneficiaries": 1874333,
         "paid_zscore": 27.857260051491142,
         "claims_zscore": 24.434971416655966,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1801027404",
@@ -761,7 +1083,9 @@
         "total_beneficiaries": 599363,
         "paid_zscore": 27.554722054382804,
         "claims_zscore": 7.6865081001674245,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1134277494",
@@ -770,7 +1094,9 @@
         "total_beneficiaries": 58982116,
         "paid_zscore": 27.34679491342899,
         "claims_zscore": 138.32340280881613,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1932184322",
@@ -779,7 +1105,9 @@
         "total_beneficiaries": 47979402,
         "paid_zscore": 27.21193347047516,
         "claims_zscore": 121.64037938879922,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1306875695",
@@ -788,7 +1116,9 @@
         "total_beneficiaries": 215938,
         "paid_zscore": 27.136336685948613,
         "claims_zscore": 1.7312362052277923,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1518259035",
@@ -797,7 +1127,9 @@
         "total_beneficiaries": 189602,
         "paid_zscore": 26.893153404276262,
         "claims_zscore": 7.903355587337921,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1932721834",
@@ -806,7 +1138,9 @@
         "total_beneficiaries": 393994,
         "paid_zscore": 26.753711099270923,
         "claims_zscore": 13.05803654011046,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1861520272",
@@ -815,7 +1149,9 @@
         "total_beneficiaries": 2368223,
         "paid_zscore": 26.499307324829935,
         "claims_zscore": 39.95575768842133,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1245414721",
@@ -824,7 +1160,9 @@
         "total_beneficiaries": 267791,
         "paid_zscore": 26.40883070786727,
         "claims_zscore": 16.923466161157968,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1508199258",
@@ -833,7 +1171,9 @@
         "total_beneficiaries": 1088047,
         "paid_zscore": 26.379570706493904,
         "claims_zscore": 7.023565182365067,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1053641498",
@@ -842,7 +1182,9 @@
         "total_beneficiaries": 357738,
         "paid_zscore": 26.04452346268356,
         "claims_zscore": 6.203152177975726,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1003953803",
@@ -851,7 +1193,9 @@
         "total_beneficiaries": 131659,
         "paid_zscore": 25.94451681819963,
         "claims_zscore": 6.790690668888767,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1497933162",
@@ -860,7 +1204,9 @@
         "total_beneficiaries": 15212055,
         "paid_zscore": 25.54345492124648,
         "claims_zscore": 69.78673654026846,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1508025370",
@@ -869,7 +1215,9 @@
         "total_beneficiaries": 196684,
         "paid_zscore": 25.440172872910168,
         "claims_zscore": 8.815336638896579,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1700828852",
@@ -878,7 +1226,9 @@
         "total_beneficiaries": 8861329,
         "paid_zscore": 25.315092534281384,
         "claims_zscore": 24.884194849296943,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1891728697",
@@ -887,7 +1237,9 @@
         "total_beneficiaries": 8329173,
         "paid_zscore": 25.20864136372868,
         "claims_zscore": 21.78211382335167,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1720121106",
@@ -896,7 +1248,9 @@
         "total_beneficiaries": 115599,
         "paid_zscore": 24.707031523116637,
         "claims_zscore": 4.03505976939851,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1083765689",
@@ -905,7 +1259,9 @@
         "total_beneficiaries": 4007530,
         "paid_zscore": 24.667218695629487,
         "claims_zscore": 25.525899680677878,
-        "flag_type": "HIGH_VOLUME_OUTLIER"
+        "flag_type": "HIGH_VOLUME_OUTLIER",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       }
     ],
     "impossible_volume": [
@@ -914,700 +1270,1200 @@
         "peak_month": "2024-05",
         "monthly_claims": 2312690,
         "claims_per_day": 105122.27272727272,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "UNILAB CORPORATION",
+        "provider_type": "Organization",
+        "city": "WEST HILLS",
+        "state": "CA",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1366479099",
         "peak_month": "2024-04",
         "monthly_claims": 2106634,
         "claims_per_day": 95756.09090909091,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "UNILAB CORPORATION",
+        "provider_type": "Organization",
+        "city": "WEST HILLS",
+        "state": "CA",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1366479099",
         "peak_month": "2024-10",
         "monthly_claims": 2100579,
         "claims_per_day": 95480.86363636363,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "UNILAB CORPORATION",
+        "provider_type": "Organization",
+        "city": "WEST HILLS",
+        "state": "CA",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1225163876",
         "peak_month": "2022-02",
         "monthly_claims": 2075953,
         "claims_per_day": 94361.5,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "SOUTHWESTERN CONNECTICUT AGENCY ON AGING",
+        "provider_type": "Organization",
+        "city": "BRIDGEPORT",
+        "state": "CT",
+        "taxonomy": "Case Management"
       },
       {
         "npi": "1063497451",
         "peak_month": "2023-03",
         "monthly_claims": 2067915,
         "claims_per_day": 93996.13636363637,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1366479099",
         "peak_month": "2024-08",
         "monthly_claims": 2059065,
         "claims_per_day": 93593.86363636363,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "UNILAB CORPORATION",
+        "provider_type": "Organization",
+        "city": "WEST HILLS",
+        "state": "CA",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1366479099",
         "peak_month": "2024-07",
         "monthly_claims": 2057325,
         "claims_per_day": 93514.77272727272,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "UNILAB CORPORATION",
+        "provider_type": "Organization",
+        "city": "WEST HILLS",
+        "state": "CA",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1366479099",
         "peak_month": "2024-03",
         "monthly_claims": 2016514,
         "claims_per_day": 91659.72727272728,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "UNILAB CORPORATION",
+        "provider_type": "Organization",
+        "city": "WEST HILLS",
+        "state": "CA",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2023-05",
         "monthly_claims": 1946679,
         "claims_per_day": 88485.40909090909,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1366479099",
         "peak_month": "2024-06",
         "monthly_claims": 1928940,
         "claims_per_day": 87679.09090909091,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "UNILAB CORPORATION",
+        "provider_type": "Organization",
+        "city": "WEST HILLS",
+        "state": "CA",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1366479099",
         "peak_month": "2024-09",
         "monthly_claims": 1904104,
         "claims_per_day": 86550.18181818182,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "UNILAB CORPORATION",
+        "provider_type": "Organization",
+        "city": "WEST HILLS",
+        "state": "CA",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2023-01",
         "monthly_claims": 1890728,
         "claims_per_day": 85942.18181818182,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2022-03",
         "monthly_claims": 1883731,
         "claims_per_day": 85624.13636363637,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1366479099",
         "peak_month": "2024-02",
         "monthly_claims": 1881058,
         "claims_per_day": 85502.63636363637,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "UNILAB CORPORATION",
+        "provider_type": "Organization",
+        "city": "WEST HILLS",
+        "state": "CA",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1366479099",
         "peak_month": "2024-01",
         "monthly_claims": 1861416,
         "claims_per_day": 84609.81818181818,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "UNILAB CORPORATION",
+        "provider_type": "Organization",
+        "city": "WEST HILLS",
+        "state": "CA",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2023-06",
         "monthly_claims": 1857458,
         "claims_per_day": 84429.90909090909,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2024-04",
         "monthly_claims": 1844996,
         "claims_per_day": 83863.45454545454,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2024-05",
         "monthly_claims": 1838959,
         "claims_per_day": 83589.04545454546,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2022-08",
         "monthly_claims": 1819794,
         "claims_per_day": 82717.90909090909,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1366479099",
         "peak_month": "2023-08",
         "monthly_claims": 1817315,
         "claims_per_day": 82605.22727272728,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "UNILAB CORPORATION",
+        "provider_type": "Organization",
+        "city": "WEST HILLS",
+        "state": "CA",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2021-03",
         "monthly_claims": 1814794,
         "claims_per_day": 82490.63636363637,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1366479099",
         "peak_month": "2023-03",
         "monthly_claims": 1809238,
         "claims_per_day": 82238.09090909091,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "UNILAB CORPORATION",
+        "provider_type": "Organization",
+        "city": "WEST HILLS",
+        "state": "CA",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2024-03",
         "monthly_claims": 1777634,
         "claims_per_day": 80801.54545454546,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2023-02",
         "monthly_claims": 1773748,
         "claims_per_day": 80624.90909090909,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2024-07",
         "monthly_claims": 1768111,
         "claims_per_day": 80368.68181818182,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2024-08",
         "monthly_claims": 1767088,
         "claims_per_day": 80322.18181818182,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2022-10",
         "monthly_claims": 1766717,
         "claims_per_day": 80305.31818181818,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1699725143",
         "peak_month": "2023-05",
         "monthly_claims": 1766354,
         "claims_per_day": 80288.81818181818,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "MODIVCARE SOLUTIONS, LLC",
+        "provider_type": "Organization",
+        "city": "DENVER",
+        "state": "CO",
+        "taxonomy": "Taxi"
       },
       {
         "npi": "1366479099",
         "peak_month": "2023-10",
         "monthly_claims": 1751165,
         "claims_per_day": 79598.40909090909,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "UNILAB CORPORATION",
+        "provider_type": "Organization",
+        "city": "WEST HILLS",
+        "state": "CA",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1366479099",
         "peak_month": "2023-05",
         "monthly_claims": 1750112,
         "claims_per_day": 79550.54545454546,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "UNILAB CORPORATION",
+        "provider_type": "Organization",
+        "city": "WEST HILLS",
+        "state": "CA",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2023-04",
         "monthly_claims": 1743559,
         "claims_per_day": 79252.68181818182,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1366479099",
         "peak_month": "2023-06",
         "monthly_claims": 1735885,
         "claims_per_day": 78903.86363636363,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "UNILAB CORPORATION",
+        "provider_type": "Organization",
+        "city": "WEST HILLS",
+        "state": "CA",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2022-11",
         "monthly_claims": 1726029,
         "claims_per_day": 78455.86363636363,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2022-09",
         "monthly_claims": 1717594,
         "claims_per_day": 78072.45454545454,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1699725143",
         "peak_month": "2019-10",
         "monthly_claims": 1683688,
         "claims_per_day": 76531.27272727272,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "MODIVCARE SOLUTIONS, LLC",
+        "provider_type": "Organization",
+        "city": "DENVER",
+        "state": "CO",
+        "taxonomy": "Taxi"
       },
       {
         "npi": "1063497451",
         "peak_month": "2024-10",
         "monthly_claims": 1681262,
         "claims_per_day": 76421,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1699725143",
         "peak_month": "2024-08",
         "monthly_claims": 1679975,
         "claims_per_day": 76362.5,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "MODIVCARE SOLUTIONS, LLC",
+        "provider_type": "Organization",
+        "city": "DENVER",
+        "state": "CO",
+        "taxonomy": "Taxi"
       },
       {
         "npi": "1063497451",
         "peak_month": "2022-06",
         "monthly_claims": 1671204,
         "claims_per_day": 75963.81818181818,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1699725143",
         "peak_month": "2024-07",
         "monthly_claims": 1667012,
         "claims_per_day": 75773.27272727272,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "MODIVCARE SOLUTIONS, LLC",
+        "provider_type": "Organization",
+        "city": "DENVER",
+        "state": "CO",
+        "taxonomy": "Taxi"
       },
       {
         "npi": "1366479099",
         "peak_month": "2022-08",
         "monthly_claims": 1655119,
         "claims_per_day": 75232.68181818182,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "UNILAB CORPORATION",
+        "provider_type": "Organization",
+        "city": "WEST HILLS",
+        "state": "CA",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2022-05",
         "monthly_claims": 1647869,
         "claims_per_day": 74903.13636363637,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1699725143",
         "peak_month": "2023-08",
         "monthly_claims": 1639391,
         "claims_per_day": 74517.77272727272,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "MODIVCARE SOLUTIONS, LLC",
+        "provider_type": "Organization",
+        "city": "DENVER",
+        "state": "CO",
+        "taxonomy": "Taxi"
       },
       {
         "npi": "1538144910",
         "peak_month": "2023-03",
         "monthly_claims": 1637797,
         "claims_per_day": 74445.31818181818,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2022-04",
         "monthly_claims": 1635667,
         "claims_per_day": 74348.5,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2024-06",
         "monthly_claims": 1633223,
         "claims_per_day": 74237.40909090909,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2022-12",
         "monthly_claims": 1628187,
         "claims_per_day": 74008.5,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1366479099",
         "peak_month": "2023-07",
         "monthly_claims": 1624130,
         "claims_per_day": 73824.09090909091,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "UNILAB CORPORATION",
+        "provider_type": "Organization",
+        "city": "WEST HILLS",
+        "state": "CA",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2021-08",
         "monthly_claims": 1618168,
         "claims_per_day": 73553.09090909091,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1699725143",
         "peak_month": "2023-10",
         "monthly_claims": 1616926,
         "claims_per_day": 73496.63636363637,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "MODIVCARE SOLUTIONS, LLC",
+        "provider_type": "Organization",
+        "city": "DENVER",
+        "state": "CO",
+        "taxonomy": "Taxi"
       },
       {
         "npi": "1063497451",
         "peak_month": "2021-04",
         "monthly_claims": 1609774,
         "claims_per_day": 73171.54545454546,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1366479099",
         "peak_month": "2022-03",
         "monthly_claims": 1609173,
         "claims_per_day": 73144.22727272728,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "UNILAB CORPORATION",
+        "provider_type": "Organization",
+        "city": "WEST HILLS",
+        "state": "CA",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1699725143",
         "peak_month": "2024-05",
         "monthly_claims": 1607835,
         "claims_per_day": 73083.40909090909,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "MODIVCARE SOLUTIONS, LLC",
+        "provider_type": "Organization",
+        "city": "DENVER",
+        "state": "CO",
+        "taxonomy": "Taxi"
       },
       {
         "npi": "1063497451",
         "peak_month": "2021-10",
         "monthly_claims": 1606707,
         "claims_per_day": 73032.13636363637,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1366479099",
         "peak_month": "2023-09",
         "monthly_claims": 1606373,
         "claims_per_day": 73016.95454545454,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "UNILAB CORPORATION",
+        "provider_type": "Organization",
+        "city": "WEST HILLS",
+        "state": "CA",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2023-07",
         "monthly_claims": 1603793,
         "claims_per_day": 72899.68181818182,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2021-06",
         "monthly_claims": 1602075,
         "claims_per_day": 72821.59090909091,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1538144910",
         "peak_month": "2022-03",
         "monthly_claims": 1601547,
         "claims_per_day": 72797.59090909091,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2022-02",
         "monthly_claims": 1600807,
         "claims_per_day": 72763.95454545454,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2024-09",
         "monthly_claims": 1588640,
         "claims_per_day": 72210.90909090909,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1366479099",
         "peak_month": "2023-11",
         "monthly_claims": 1585218,
         "claims_per_day": 72055.36363636363,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "UNILAB CORPORATION",
+        "provider_type": "Organization",
+        "city": "WEST HILLS",
+        "state": "CA",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1538144910",
         "peak_month": "2024-08",
         "monthly_claims": 1585006,
         "claims_per_day": 72045.72727272728,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1538144910",
         "peak_month": "2024-02",
         "monthly_claims": 1584960,
         "claims_per_day": 72043.63636363637,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1366479099",
         "peak_month": "2023-04",
         "monthly_claims": 1581514,
         "claims_per_day": 71887,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "UNILAB CORPORATION",
+        "provider_type": "Organization",
+        "city": "WEST HILLS",
+        "state": "CA",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2021-09",
         "monthly_claims": 1580985,
         "claims_per_day": 71862.95454545454,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1699725143",
         "peak_month": "2023-03",
         "monthly_claims": 1576182,
         "claims_per_day": 71644.63636363637,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "MODIVCARE SOLUTIONS, LLC",
+        "provider_type": "Organization",
+        "city": "DENVER",
+        "state": "CO",
+        "taxonomy": "Taxi"
       },
       {
         "npi": "1538144910",
         "peak_month": "2021-03",
         "monthly_claims": 1573146,
         "claims_per_day": 71506.63636363637,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1699725143",
         "peak_month": "2024-09",
         "monthly_claims": 1572429,
         "claims_per_day": 71474.04545454546,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "MODIVCARE SOLUTIONS, LLC",
+        "provider_type": "Organization",
+        "city": "DENVER",
+        "state": "CO",
+        "taxonomy": "Taxi"
       },
       {
         "npi": "1699725143",
         "peak_month": "2020-01",
         "monthly_claims": 1571586,
         "claims_per_day": 71435.72727272728,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "MODIVCARE SOLUTIONS, LLC",
+        "provider_type": "Organization",
+        "city": "DENVER",
+        "state": "CO",
+        "taxonomy": "Taxi"
       },
       {
         "npi": "1538144910",
         "peak_month": "2022-08",
         "monthly_claims": 1569564,
         "claims_per_day": 71343.81818181818,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1366479099",
         "peak_month": "2023-01",
         "monthly_claims": 1568379,
         "claims_per_day": 71289.95454545454,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "UNILAB CORPORATION",
+        "provider_type": "Organization",
+        "city": "WEST HILLS",
+        "state": "CA",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2022-07",
         "monthly_claims": 1565984,
         "claims_per_day": 71181.09090909091,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1699725143",
         "peak_month": "2023-04",
         "monthly_claims": 1562576,
         "claims_per_day": 71026.18181818182,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "MODIVCARE SOLUTIONS, LLC",
+        "provider_type": "Organization",
+        "city": "DENVER",
+        "state": "CO",
+        "taxonomy": "Taxi"
       },
       {
         "npi": "1063497451",
         "peak_month": "2021-11",
         "monthly_claims": 1562468,
         "claims_per_day": 71021.27272727272,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1699725143",
         "peak_month": "2019-08",
         "monthly_claims": 1558500,
         "claims_per_day": 70840.90909090909,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "MODIVCARE SOLUTIONS, LLC",
+        "provider_type": "Organization",
+        "city": "DENVER",
+        "state": "CO",
+        "taxonomy": "Taxi"
       },
       {
         "npi": "1538144910",
         "peak_month": "2024-04",
         "monthly_claims": 1544359,
         "claims_per_day": 70198.13636363637,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1538144910",
         "peak_month": "2023-05",
         "monthly_claims": 1544008,
         "claims_per_day": 70182.18181818182,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1538144910",
         "peak_month": "2024-07",
         "monthly_claims": 1541163,
         "claims_per_day": 70052.86363636363,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1538144910",
         "peak_month": "2024-05",
         "monthly_claims": 1540816,
         "claims_per_day": 70037.09090909091,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1699725143",
         "peak_month": "2023-06",
         "monthly_claims": 1537042,
         "claims_per_day": 69865.54545454546,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "MODIVCARE SOLUTIONS, LLC",
+        "provider_type": "Organization",
+        "city": "DENVER",
+        "state": "CO",
+        "taxonomy": "Taxi"
       },
       {
         "npi": "1699725143",
         "peak_month": "2024-10",
         "monthly_claims": 1536428,
         "claims_per_day": 69837.63636363637,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "MODIVCARE SOLUTIONS, LLC",
+        "provider_type": "Organization",
+        "city": "DENVER",
+        "state": "CO",
+        "taxonomy": "Taxi"
       },
       {
         "npi": "1699725143",
         "peak_month": "2023-09",
         "monthly_claims": 1535606,
         "claims_per_day": 69800.27272727272,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "MODIVCARE SOLUTIONS, LLC",
+        "provider_type": "Organization",
+        "city": "DENVER",
+        "state": "CO",
+        "taxonomy": "Taxi"
       },
       {
         "npi": "1699725143",
         "peak_month": "2024-04",
         "monthly_claims": 1534331,
         "claims_per_day": 69742.31818181818,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "MODIVCARE SOLUTIONS, LLC",
+        "provider_type": "Organization",
+        "city": "DENVER",
+        "state": "CO",
+        "taxonomy": "Taxi"
       },
       {
         "npi": "1366479099",
         "peak_month": "2023-02",
         "monthly_claims": 1532500,
         "claims_per_day": 69659.09090909091,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "UNILAB CORPORATION",
+        "provider_type": "Organization",
+        "city": "WEST HILLS",
+        "state": "CA",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1538144910",
         "peak_month": "2023-01",
         "monthly_claims": 1529799,
         "claims_per_day": 69536.31818181818,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2021-01",
         "monthly_claims": 1528518,
         "claims_per_day": 69478.09090909091,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1538144910",
         "peak_month": "2024-01",
         "monthly_claims": 1528271,
         "claims_per_day": 69466.86363636363,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1538144910",
         "peak_month": "2023-08",
         "monthly_claims": 1524117,
         "claims_per_day": 69278.04545454546,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2021-07",
         "monthly_claims": 1513858,
         "claims_per_day": 68811.72727272728,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1063497451",
         "peak_month": "2021-05",
         "monthly_claims": 1509220,
         "claims_per_day": 68600.90909090909,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1538144910",
         "peak_month": "2021-09",
         "monthly_claims": 1502815,
         "claims_per_day": 68309.77272727272,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1699725143",
         "peak_month": "2019-11",
         "monthly_claims": 1495325,
         "claims_per_day": 67969.31818181818,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "MODIVCARE SOLUTIONS, LLC",
+        "provider_type": "Organization",
+        "city": "DENVER",
+        "state": "CO",
+        "taxonomy": "Taxi"
       },
       {
         "npi": "1538144910",
         "peak_month": "2024-03",
         "monthly_claims": 1495064,
         "claims_per_day": 67957.45454545454,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1699725143",
         "peak_month": "2024-06",
         "monthly_claims": 1487696,
         "claims_per_day": 67622.54545454546,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "MODIVCARE SOLUTIONS, LLC",
+        "provider_type": "Organization",
+        "city": "DENVER",
+        "state": "CO",
+        "taxonomy": "Taxi"
       },
       {
         "npi": "1538144910",
         "peak_month": "2024-10",
         "monthly_claims": 1486666,
         "claims_per_day": 67575.72727272728,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1699725143",
         "peak_month": "2024-03",
         "monthly_claims": 1485636,
         "claims_per_day": 67528.90909090909,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "MODIVCARE SOLUTIONS, LLC",
+        "provider_type": "Organization",
+        "city": "DENVER",
+        "state": "CO",
+        "taxonomy": "Taxi"
       },
       {
         "npi": "1366479099",
         "peak_month": "2022-09",
         "monthly_claims": 1481413,
         "claims_per_day": 67336.95454545454,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "UNILAB CORPORATION",
+        "provider_type": "Organization",
+        "city": "WEST HILLS",
+        "state": "CA",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1699725143",
         "peak_month": "2024-02",
         "monthly_claims": 1481037,
         "claims_per_day": 67319.86363636363,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "MODIVCARE SOLUTIONS, LLC",
+        "provider_type": "Organization",
+        "city": "DENVER",
+        "state": "CO",
+        "taxonomy": "Taxi"
       },
       {
         "npi": "1366479099",
         "peak_month": "2021-08",
         "monthly_claims": 1480737,
         "claims_per_day": 67306.22727272728,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "UNILAB CORPORATION",
+        "provider_type": "Organization",
+        "city": "WEST HILLS",
+        "state": "CA",
+        "taxonomy": "Clinical Medical Laboratory"
       },
       {
         "npi": "1699725143",
         "peak_month": "2023-11",
         "monthly_claims": 1479973,
         "claims_per_day": 67271.5,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "MODIVCARE SOLUTIONS, LLC",
+        "provider_type": "Organization",
+        "city": "DENVER",
+        "state": "CO",
+        "taxonomy": "Taxi"
       },
       {
         "npi": "1538144910",
         "peak_month": "2022-09",
         "monthly_claims": 1479092,
         "claims_per_day": 67231.45454545454,
-        "flag_type": "IMPOSSIBLE_VOLUME"
+        "flag_type": "IMPOSSIBLE_VOLUME",
+        "provider_name": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "provider_type": "Organization",
+        "city": "BURLINGTON",
+        "state": "NC",
+        "taxonomy": "Clinical Medical Laboratory"
       }
     ],
     "ghost_patient_patterns": [
@@ -1616,665 +2472,990 @@
         "total_claims": 288957,
         "total_beneficiaries": 581,
         "claims_per_beneficiary": 497.3442340791738,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "LORI WILLIAMS",
+        "provider_type": "Individual",
+        "city": "SAINT LOUIS",
+        "state": "MO",
+        "taxonomy": "Clinic/Center, Adult Day Care"
       },
       {
         "npi": "1417409509",
         "total_claims": 140266,
         "total_beneficiaries": 538,
         "claims_per_beneficiary": 260.7174721189591,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "DAILY HOME CARE SERVICES",
+        "provider_type": "Organization",
+        "city": "BROOKSHIRE",
+        "state": "TX",
+        "taxonomy": "Home Health"
       },
       {
         "npi": "1144989351",
         "total_claims": 324836,
         "total_beneficiaries": 1381,
         "claims_per_beneficiary": 235.21795800144824,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "STARR'S WATCHFUL EYE",
+        "provider_type": "Organization",
+        "city": "SOUTHFIELD",
+        "state": "MI",
+        "taxonomy": "Residential Treatment Facility, Intellectual and/or Developmental Disabilities"
       },
       {
         "npi": "1457621633",
         "total_claims": 310532,
         "total_beneficiaries": 2641,
         "claims_per_beneficiary": 117.5812192351382,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "JARC",
+        "provider_type": "Organization",
+        "city": "BLOOMFIELD HILLS",
+        "state": "MI",
+        "taxonomy": "In Home Supportive Care"
       },
       {
         "npi": "1467227744",
         "total_claims": 5018,
         "total_beneficiaries": 44,
         "claims_per_beneficiary": 114.04545454545455,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "DEEPLY DEVOTED HOME CARE, LLC",
+        "provider_type": "Organization",
+        "city": "ELIZABETHTOWN",
+        "state": "NC",
+        "taxonomy": "In Home Supportive Care"
       },
       {
         "npi": "201016020A",
         "total_claims": 3564,
         "total_beneficiaries": 35,
         "claims_per_beneficiary": 101.82857142857142,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Not Found",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1659629301",
         "total_claims": 918636,
         "total_beneficiaries": 9046,
         "claims_per_beneficiary": 101.55162502763652,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "AT HOME CARE ST. LOUIS CDS",
+        "provider_type": "Organization",
+        "city": "BRIDGETON",
+        "state": "MO",
+        "taxonomy": "In Home Supportive Care"
       },
       {
         "npi": "1407430143",
         "total_claims": 171039,
         "total_beneficiaries": 1928,
         "claims_per_beneficiary": 88.71317427385893,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "LIFELINE, INC",
+        "provider_type": "Organization",
+        "city": "WASHINGTON",
+        "state": "DC",
+        "taxonomy": "Clinic/Center, Developmental Disabilities"
       },
       {
         "npi": "1922157411",
         "total_claims": 52245,
         "total_beneficiaries": 591,
         "claims_per_beneficiary": 88.4010152284264,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "COMMUNITY ADMINISTRATIVE SERVICES INC",
+        "provider_type": "Organization",
+        "city": "CLINTON TOWNSHIP",
+        "state": "MI",
+        "taxonomy": "Residential Treatment Facility, Intellectual and/or Developmental Disabilities"
       },
       {
         "npi": "1063764082",
         "total_claims": 4142,
         "total_beneficiaries": 51,
         "claims_per_beneficiary": 81.2156862745098,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "BEDFORD SPECIALIZED CARE, INC",
+        "provider_type": "Organization",
+        "city": "SPRINGFIELD",
+        "state": "MI",
+        "taxonomy": "Community Based Residential Treatment Facility, Mental Illness"
       },
       {
         "npi": "A953100100",
         "total_claims": 1456,
         "total_beneficiaries": 19,
         "claims_per_beneficiary": 76.63157894736842,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Not Found",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1497809172",
         "total_claims": 1831,
         "total_beneficiaries": 24,
         "claims_per_beneficiary": 76.29166666666667,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "GERICARE & HEALTH SERVICES, INC.",
+        "provider_type": "Organization",
+        "city": "DURHAM",
+        "state": "NC",
+        "taxonomy": "Nursing Care"
       },
       {
         "npi": "1477108546",
         "total_claims": 13282,
         "total_beneficiaries": 175,
         "claims_per_beneficiary": 75.89714285714285,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "MAZAL NURSING SERVICES INC",
+        "provider_type": "Organization",
+        "city": "HOLLYWOOD",
+        "state": "FL",
+        "taxonomy": "Nursing Care"
       },
       {
         "npi": "1659572790",
         "total_claims": 4815,
         "total_beneficiaries": 65,
         "claims_per_beneficiary": 74.07692307692308,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "CATHOLIC CHARITIES",
+        "provider_type": "Organization",
+        "city": "NEW ORLEANS",
+        "state": "LA",
+        "taxonomy": "Assisted Living Facility"
       },
       {
         "npi": "1396068771",
         "total_claims": 90364,
         "total_beneficiaries": 1233,
         "claims_per_beneficiary": 73.28791565287915,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "QUALITY CHOICE HOME HEALTHCARE INC.",
+        "provider_type": "Organization",
+        "city": "TROY",
+        "state": "MI",
+        "taxonomy": "Home Health"
       },
       {
         "npi": "1538911029",
         "total_claims": 4008,
         "total_beneficiaries": 55,
         "claims_per_beneficiary": 72.87272727272727,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "SUMMERTREE RESIDENTIAL CENTERS",
+        "provider_type": "Organization",
+        "city": "BOYNE CITY",
+        "state": "MI",
+        "taxonomy": "Foster Care Agency"
       },
       {
         "npi": "1982887022",
         "total_claims": 163899,
         "total_beneficiaries": 2262,
         "claims_per_beneficiary": 72.45755968169762,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "G B COOLEY HOSPITAL SERVICES/PCA",
+        "provider_type": "Organization",
+        "city": "WEST MONROE",
+        "state": "LA",
+        "taxonomy": "Residential Treatment Facility, Intellectual and/or Developmental Disabilities"
       },
       {
         "npi": "1265753305",
         "total_claims": 30171,
         "total_beneficiaries": 426,
         "claims_per_beneficiary": 70.82394366197182,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "WAUKESHA COUNTY",
+        "provider_type": "Organization",
+        "city": "WAUKESHA",
+        "state": "WI",
+        "taxonomy": "Community/Behavioral Health"
       },
       {
         "npi": "1629464227",
         "total_claims": 26088,
         "total_beneficiaries": 378,
         "claims_per_beneficiary": 69.01587301587301,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "INTEGRATED LIVING, INC.",
+        "provider_type": "Organization",
+        "city": "STERLING HEIGHTS",
+        "state": "MI",
+        "taxonomy": "Home Health"
       },
       {
         "npi": "1366573115",
         "total_claims": 194369,
         "total_beneficiaries": 2819,
         "claims_per_beneficiary": 68.94962752749201,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "CROSSROADS LA. INC.",
+        "provider_type": "Organization",
+        "city": "NEW ORLEANS",
+        "state": "LA",
+        "taxonomy": "Assisted Living Facility"
       },
       {
         "npi": "1629249826",
         "total_claims": 62576,
         "total_beneficiaries": 915,
         "claims_per_beneficiary": 68.38907103825137,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "ABILITY CARE PARTNERS INCORPORATED",
+        "provider_type": "Organization",
+        "city": "CRYSTAL",
+        "state": "MN",
+        "taxonomy": "Home Health"
       },
       {
         "npi": "1902047293",
         "total_claims": 17657,
         "total_beneficiaries": 259,
         "claims_per_beneficiary": 68.17374517374517,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "AVID HEALTH AT HOME NORTH CAROLINA",
+        "provider_type": "Organization",
+        "city": "ROCKINGHAM",
+        "state": "NC",
+        "taxonomy": "Home Health"
       },
       {
         "npi": "1245375823",
         "total_claims": 43932,
         "total_beneficiaries": 648,
         "claims_per_beneficiary": 67.79629629629629,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "D & M CONSULTANTS, INC",
+        "provider_type": "Organization",
+        "city": "SOUTHFIELD",
+        "state": "MI",
+        "taxonomy": "Psychiatric Residential Treatment Facility"
       },
       {
         "npi": "1477135598",
         "total_claims": 804,
         "total_beneficiaries": 12,
         "claims_per_beneficiary": 67,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "HEED HOME HEALTHCARE LLC",
+        "provider_type": "Organization",
+        "city": "WHITEHALL",
+        "state": "OH",
+        "taxonomy": "Home Health"
       },
       {
         "npi": "1669479150",
         "total_claims": 13339,
         "total_beneficiaries": 200,
         "claims_per_beneficiary": 66.695,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "COMMUNITY RESIDENCE, INC.",
+        "provider_type": "Organization",
+        "city": "BALLWIN",
+        "state": "MO",
+        "taxonomy": "Custodial Care Facility, Adult Care Home"
       },
       {
         "npi": "1689894701",
         "total_claims": 89138,
         "total_beneficiaries": 1349,
         "claims_per_beneficiary": 66.07709414381023,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "HELPING HANDS OF NEW ORLEANS",
+        "provider_type": "Organization",
+        "city": "KENNER",
+        "state": "LA",
+        "taxonomy": "Home Health"
       },
       {
         "npi": "1922163971",
         "total_claims": 12190,
         "total_beneficiaries": 185,
         "claims_per_beneficiary": 65.89189189189189,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "SOUTHERN ASSISTED LIVING, LLC.",
+        "provider_type": "Organization",
+        "city": "MILWAUKEE",
+        "state": "WI",
+        "taxonomy": "Assisted Living Facility"
       },
       {
         "npi": "1740333681",
         "total_claims": 32862,
         "total_beneficiaries": 503,
         "claims_per_beneficiary": 65.33200795228628,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "OLEAN GENERAL HOSPITAL",
+        "provider_type": "Organization",
+        "city": "OLEAN",
+        "state": "NY",
+        "taxonomy": "Clinic/Center, End-Stage Renal Disease (ESRD) Treatment"
       },
       {
         "npi": "1538527106",
         "total_claims": 4689,
         "total_beneficiaries": 72,
         "claims_per_beneficiary": 65.125,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "AVERA MCKENNAN",
+        "provider_type": "Organization",
+        "city": "WAGNER",
+        "state": "SD",
+        "taxonomy": "Clinic/Center, End-Stage Renal Disease (ESRD) Treatment"
       },
       {
         "npi": "1053533554",
         "total_claims": 206108,
         "total_beneficiaries": 3187,
         "claims_per_beneficiary": 64.67147787888297,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "NEW OUTLOOK, INC.",
+        "provider_type": "Organization",
+        "city": "LIVONIA",
+        "state": "MI",
+        "taxonomy": "Intermediate Care Facility, Intellectual Disabilities"
       },
       {
         "npi": "A597427800",
         "total_claims": 1024,
         "total_beneficiaries": 16,
         "claims_per_beneficiary": 64,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Not Found",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1770509051",
         "total_claims": 2959,
         "total_beneficiaries": 47,
         "claims_per_beneficiary": 62.95744680851064,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "GUARDIAN HOSPICE OF NASHVILLE, LLC",
+        "provider_type": "Organization",
+        "city": "FRANKLIN",
+        "state": "TN",
+        "taxonomy": "Hospice Care, Community Based"
       },
       {
         "npi": "1356637573",
         "total_claims": 13250,
         "total_beneficiaries": 211,
         "claims_per_beneficiary": 62.796208530805686,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "TREATMENT CENTERS INC",
+        "provider_type": "Organization",
+        "city": "SHEFFIELD",
+        "state": "AL",
+        "taxonomy": "Clinic/Center, Mental Health (Including Community Mental Health Center)"
       },
       {
         "npi": "M917673800",
         "total_claims": 465219,
         "total_beneficiaries": 7444,
         "claims_per_beneficiary": 62.49583557227297,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Not Found",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1609321710",
         "total_claims": 63639,
         "total_beneficiaries": 1031,
         "claims_per_beneficiary": 61.72550921435499,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "PRESTIGE HOME HEALTH SERVICES LLC",
+        "provider_type": "Organization",
+        "city": "WESTERVILLE",
+        "state": "OH",
+        "taxonomy": "Health Maintenance Organization"
       },
       {
         "npi": "1679092902",
         "total_claims": 739,
         "total_beneficiaries": 12,
         "claims_per_beneficiary": 61.583333333333336,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "STONERISE RELIABLE HEALTHCARE LLC",
+        "provider_type": "Organization",
+        "city": "BLUE ASH",
+        "state": "OH",
+        "taxonomy": "Hospice Care, Community Based"
       },
       {
         "npi": "1871970756",
         "total_claims": 22064,
         "total_beneficiaries": 361,
         "claims_per_beneficiary": 61.119113573407205,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "TUSCALOOSA TREATMENT CENTER",
+        "provider_type": "Organization",
+        "city": "TUSCALOOSA",
+        "state": "AL",
+        "taxonomy": "Counselor, Addiction (Substance Use Disorder)"
       },
       {
         "npi": "A688962300",
         "total_claims": 1460,
         "total_beneficiaries": 24,
         "claims_per_beneficiary": 60.833333333333336,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Not Found",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1558061242",
         "total_claims": 5877,
         "total_beneficiaries": 97,
         "claims_per_beneficiary": 60.58762886597938,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "ODYSSEY HEALTHCARE HOLDING COMPANY",
+        "provider_type": "Organization",
+        "city": "MOORESVILLE",
+        "state": "NC",
+        "taxonomy": "Hospice Care, Community Based"
       },
       {
         "npi": "1023413093",
         "total_claims": 7612,
         "total_beneficiaries": 126,
         "claims_per_beneficiary": 60.41269841269841,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "AVERA MCKENNAN",
+        "provider_type": "Organization",
+        "city": "MITCHELL",
+        "state": "SD",
+        "taxonomy": "Clinic/Center, End-Stage Renal Disease (ESRD) Treatment"
       },
       {
         "npi": "1831402296",
         "total_claims": 17925,
         "total_beneficiaries": 298,
         "claims_per_beneficiary": 60.151006711409394,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "CDF HEALTHCARE OF LA, LLC",
+        "provider_type": "Organization",
+        "city": "DELHI",
+        "state": "LA",
+        "taxonomy": "In Home Supportive Care"
       },
       {
         "npi": "1215378161",
         "total_claims": 3853,
         "total_beneficiaries": 65,
         "claims_per_beneficiary": 59.276923076923076,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "NEW YORK DIALYSIS SERVICES, INC.",
+        "provider_type": "Organization",
+        "city": "WEBSTER",
+        "state": "NY",
+        "taxonomy": "Clinic/Center, End-Stage Renal Disease (ESRD) Treatment"
       },
       {
         "npi": "1912620220",
         "total_claims": 2346,
         "total_beneficiaries": 40,
         "claims_per_beneficiary": 58.65,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "PROFESSIONAL NURSING HOME HEALTH CARE LLC",
+        "provider_type": "Organization",
+        "city": "FORT WAYNE",
+        "state": "IN",
+        "taxonomy": "In Home Supportive Care"
       },
       {
         "npi": "1558971606",
         "total_claims": 37937,
         "total_beneficiaries": 649,
         "claims_per_beneficiary": 58.45454545454545,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "OHANA HOME HEALTH LLC",
+        "provider_type": "Organization",
+        "city": "WORTHINGTON",
+        "state": "OH",
+        "taxonomy": "Home Health"
       },
       {
         "npi": "1174767743",
         "total_claims": 2277,
         "total_beneficiaries": 39,
         "claims_per_beneficiary": 58.38461538461539,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "HYPERBARIC THERAPY OF FLORIDA, INC",
+        "provider_type": "Organization",
+        "city": "MIAMI",
+        "state": "FL",
+        "taxonomy": "Clinic/Center"
       },
       {
         "npi": "1881789691",
         "total_claims": 312564,
         "total_beneficiaries": 5369,
         "claims_per_beneficiary": 58.21642764015645,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "RGRPS, INC.",
+        "provider_type": "Organization",
+        "city": "FARMINGTON HILLS",
+        "state": "MI",
+        "taxonomy": "Contractor"
       },
       {
         "npi": "1356400550",
         "total_claims": 33207,
         "total_beneficiaries": 573,
         "claims_per_beneficiary": 57.952879581151834,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "NORMAL LIFE OF LAFAYETTE, INC",
+        "provider_type": "Organization",
+        "city": "LAKE CHARLES",
+        "state": "LA",
+        "taxonomy": "Intermediate Care Facility, Intellectual Disabilities"
       },
       {
         "npi": "1790063576",
         "total_claims": 2123,
         "total_beneficiaries": 37,
         "claims_per_beneficiary": 57.37837837837838,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "SINNISSIPPI CENTERS, INC.",
+        "provider_type": "Organization",
+        "city": "STERLING",
+        "state": "IL",
+        "taxonomy": "Clinic/Center, Mental Health (Including Community Mental Health Center)"
       },
       {
         "npi": "1023587854",
         "total_claims": 91888,
         "total_beneficiaries": 1605,
         "claims_per_beneficiary": 57.25109034267913,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "DITMAS PARK DIALYSIS CENTER LLC",
+        "provider_type": "Organization",
+        "city": "BROOKLYN",
+        "state": "NY",
+        "taxonomy": "Registered Nurse, Dialysis, Peritoneal"
       },
       {
         "npi": "1699318675",
         "total_claims": 18764,
         "total_beneficiaries": 328,
         "claims_per_beneficiary": 57.207317073170735,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "WOODMERE DIALYSIS,LLC",
+        "provider_type": "Organization",
+        "city": "BRONX",
+        "state": "NY",
+        "taxonomy": "Clinic/Center, End-Stage Renal Disease (ESRD) Treatment"
       },
       {
         "npi": "1821316795",
         "total_claims": 211875,
         "total_beneficiaries": 3719,
         "claims_per_beneficiary": 56.970959935466524,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1396128757",
         "total_claims": 683,
         "total_beneficiaries": 12,
         "claims_per_beneficiary": 56.916666666666664,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1477177111",
         "total_claims": 17988,
         "total_beneficiaries": 318,
         "claims_per_beneficiary": 56.56603773584906,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1437546967",
         "total_claims": 23641,
         "total_beneficiaries": 419,
         "claims_per_beneficiary": 56.42243436754177,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1992731848",
         "total_claims": 40900,
         "total_beneficiaries": 726,
         "claims_per_beneficiary": 56.33608815426997,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1962809632",
         "total_claims": 45533,
         "total_beneficiaries": 814,
         "claims_per_beneficiary": 55.937346437346434,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1467869214",
         "total_claims": 28951,
         "total_beneficiaries": 520,
         "claims_per_beneficiary": 55.675,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1326621517",
         "total_claims": 3427,
         "total_beneficiaries": 62,
         "claims_per_beneficiary": 55.274193548387096,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1922477975",
         "total_claims": 500777,
         "total_beneficiaries": 9061,
         "claims_per_beneficiary": 55.2672994150756,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1962920397",
         "total_claims": 10289,
         "total_beneficiaries": 187,
         "claims_per_beneficiary": 55.02139037433155,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1619374899",
         "total_claims": 14714,
         "total_beneficiaries": 268,
         "claims_per_beneficiary": 54.90298507462686,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1407103005",
         "total_claims": 1592,
         "total_beneficiaries": 29,
         "claims_per_beneficiary": 54.89655172413793,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1215196811",
         "total_claims": 32447,
         "total_beneficiaries": 593,
         "claims_per_beneficiary": 54.71669477234401,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1366143810",
         "total_claims": 10155,
         "total_beneficiaries": 186,
         "claims_per_beneficiary": 54.596774193548384,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1154657591",
         "total_claims": 1310,
         "total_beneficiaries": 24,
         "claims_per_beneficiary": 54.583333333333336,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1003454729",
         "total_claims": 29414,
         "total_beneficiaries": 544,
         "claims_per_beneficiary": 54.06985294117647,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1609494897",
         "total_claims": 73206,
         "total_beneficiaries": 1354,
         "claims_per_beneficiary": 54.066469719350074,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1295403137",
         "total_claims": 41699,
         "total_beneficiaries": 772,
         "claims_per_beneficiary": 54.01424870466321,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1104537042",
         "total_claims": 21145,
         "total_beneficiaries": 392,
         "claims_per_beneficiary": 53.941326530612244,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1104467984",
         "total_claims": 644,
         "total_beneficiaries": 12,
         "claims_per_beneficiary": 53.666666666666664,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1912688375",
         "total_claims": 5713,
         "total_beneficiaries": 107,
         "claims_per_beneficiary": 53.39252336448598,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1851960934",
         "total_claims": 151462,
         "total_beneficiaries": 2841,
         "claims_per_beneficiary": 53.31291798662443,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1477165843",
         "total_claims": 23015,
         "total_beneficiaries": 432,
         "claims_per_beneficiary": 53.27546296296296,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1417130170",
         "total_claims": 10249,
         "total_beneficiaries": 193,
         "claims_per_beneficiary": 53.10362694300518,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1457577892",
         "total_claims": 162096,
         "total_beneficiaries": 3056,
         "claims_per_beneficiary": 53.04188481675393,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1396181954",
         "total_claims": 38857,
         "total_beneficiaries": 734,
         "claims_per_beneficiary": 52.938692098092645,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1023875507",
         "total_claims": 1265,
         "total_beneficiaries": 24,
         "claims_per_beneficiary": 52.708333333333336,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1215122072",
         "total_claims": 43730,
         "total_beneficiaries": 833,
         "claims_per_beneficiary": 52.49699879951981,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1588259972",
         "total_claims": 48267,
         "total_beneficiaries": 920,
         "claims_per_beneficiary": 52.46413043478261,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1366025116",
         "total_claims": 13904,
         "total_beneficiaries": 266,
         "claims_per_beneficiary": 52.27067669172932,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1679743496",
         "total_claims": 149650,
         "total_beneficiaries": 2881,
         "claims_per_beneficiary": 51.94376952447067,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1417490202",
         "total_claims": 17614,
         "total_beneficiaries": 341,
         "claims_per_beneficiary": 51.65395894428153,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1902192842",
         "total_claims": 87985,
         "total_beneficiaries": 1711,
         "claims_per_beneficiary": 51.42314436002338,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1952049959",
         "total_claims": 39893,
         "total_beneficiaries": 776,
         "claims_per_beneficiary": 51.40850515463917,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1912921438",
         "total_claims": 6887,
         "total_beneficiaries": 134,
         "claims_per_beneficiary": 51.3955223880597,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1306421417",
         "total_claims": 13967,
         "total_beneficiaries": 272,
         "claims_per_beneficiary": 51.349264705882355,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1215470067",
         "total_claims": 99399,
         "total_beneficiaries": 1941,
         "claims_per_beneficiary": 51.210200927357036,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1841983533",
         "total_claims": 3169,
         "total_beneficiaries": 62,
         "claims_per_beneficiary": 51.11290322580645,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1306260740",
         "total_claims": 868,
         "total_beneficiaries": 17,
         "claims_per_beneficiary": 51.05882352941177,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1952612566",
         "total_claims": 212424,
         "total_beneficiaries": 4189,
         "claims_per_beneficiary": 50.709954643112916,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1477765741",
         "total_claims": 1922,
         "total_beneficiaries": 38,
         "claims_per_beneficiary": 50.578947368421055,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1235759036",
         "total_claims": 6914,
         "total_beneficiaries": 137,
         "claims_per_beneficiary": 50.46715328467153,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "A983422400",
         "total_claims": 2461,
         "total_beneficiaries": 49,
         "claims_per_beneficiary": 50.224489795918366,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1255417275",
         "total_claims": 49916,
         "total_beneficiaries": 997,
         "claims_per_beneficiary": 50.06619859578736,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       },
       {
         "npi": "1730615717",
         "total_claims": 102705,
         "total_beneficiaries": 2054,
         "claims_per_beneficiary": 50.00243427458617,
-        "flag_type": "GHOST_PATIENT_PATTERN"
+        "flag_type": "GHOST_PATIENT_PATTERN",
+        "provider_name": "Unknown",
+        "provider_type": "Unknown"
       }
     ]
   },

@@ -1,0 +1,9 @@
+{
+  "total_rows": 227083361,
+  "unique_billing_providers": 617503,
+  "unique_servicing_providers": 1627362,
+  "unique_procedures": 10881,
+  "total_paid": 1093562833516.6311,
+  "earliest_month": "2018-01",
+  "latest_month": "2024-12"
+}

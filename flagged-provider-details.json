@@ -1,0 +1,1032 @@
+[
+  {
+    "npi": "1417262056",
+    "procedure_types": 25,
+    "months_active": 84,
+    "total_paid": 7177816544.459988,
+    "total_claims": 89773441,
+    "total_beneficiaries": 5596134,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1699703827",
+    "procedure_types": 117,
+    "months_active": 83,
+    "total_paid": 6778483867.35001,
+    "total_claims": 30870976,
+    "total_beneficiaries": 10549232,
+    "first_claim": "2018-01",
+    "last_claim": "2024-11"
+  },
+  {
+    "npi": "1376609297",
+    "procedure_types": 5,
+    "months_active": 84,
+    "total_paid": 5571605313.000004,
+    "total_claims": 63523750,
+    "total_beneficiaries": 3345513,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1699725143",
+    "procedure_types": 44,
+    "months_active": 84,
+    "total_paid": 3093063112.899991,
+    "total_claims": 107716418,
+    "total_beneficiaries": 16440856,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1922467554",
+    "procedure_types": 6,
+    "months_active": 84,
+    "total_paid": 3025874966.689998,
+    "total_claims": 21977069,
+    "total_beneficiaries": 1186413,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1710176151",
+    "procedure_types": 68,
+    "months_active": 84,
+    "total_paid": 2683634591.6699944,
+    "total_claims": 35557539,
+    "total_beneficiaries": 2441087,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1629436241",
+    "procedure_types": 72,
+    "months_active": 78,
+    "total_paid": 2596064454.980006,
+    "total_claims": 16349155,
+    "total_beneficiaries": 1174610,
+    "first_claim": "2018-01",
+    "last_claim": "2024-06"
+  },
+  {
+    "npi": "1982757688",
+    "procedure_types": 21,
+    "months_active": 84,
+    "total_paid": 2254946211.700001,
+    "total_claims": 1950098,
+    "total_beneficiaries": 594985,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1538649983",
+    "procedure_types": 5,
+    "months_active": 78,
+    "total_paid": 2105798329.4199996,
+    "total_claims": 22162533,
+    "total_beneficiaries": 1069174,
+    "first_claim": "2018-07",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1528263910",
+    "procedure_types": 59,
+    "months_active": 82,
+    "total_paid": 1728502977.19001,
+    "total_claims": 4656205,
+    "total_beneficiaries": 1617142,
+    "first_claim": "2018-01",
+    "last_claim": "2024-10"
+  },
+  {
+    "npi": "1962650622",
+    "procedure_types": 5,
+    "months_active": 84,
+    "total_paid": 1682424022.3700001,
+    "total_claims": 11238391,
+    "total_beneficiaries": 463218,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1720151046",
+    "procedure_types": 11,
+    "months_active": 84,
+    "total_paid": 1476339972.5800009,
+    "total_claims": 7928022,
+    "total_beneficiaries": 357665,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1356709976",
+    "procedure_types": 53,
+    "months_active": 78,
+    "total_paid": 1452536495.0400076,
+    "total_claims": 5287026,
+    "total_beneficiaries": 389567,
+    "first_claim": "2018-01",
+    "last_claim": "2024-06"
+  },
+  {
+    "npi": "1396051694",
+    "procedure_types": 17,
+    "months_active": 84,
+    "total_paid": 1442353043.539999,
+    "total_claims": 9386423,
+    "total_beneficiaries": 461789,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1538144910",
+    "procedure_types": 747,
+    "months_active": 84,
+    "total_paid": 1436181704.9099886,
+    "total_claims": 103910314,
+    "total_beneficiaries": 92077561,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1447261540",
+    "procedure_types": 82,
+    "months_active": 83,
+    "total_paid": 1398902370.0399995,
+    "total_claims": 8714521,
+    "total_beneficiaries": 2328336,
+    "first_claim": "2018-01",
+    "last_claim": "2024-11"
+  },
+  {
+    "npi": "1750504064",
+    "procedure_types": 16,
+    "months_active": 82,
+    "total_paid": 1349935087.7199996,
+    "total_claims": 1662383,
+    "total_beneficiaries": 224187,
+    "first_claim": "2018-01",
+    "last_claim": "2024-10"
+  },
+  {
+    "npi": "1417099789",
+    "procedure_types": 61,
+    "months_active": 84,
+    "total_paid": 1344222550.120007,
+    "total_claims": 6184815,
+    "total_beneficiaries": 1302440,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1073055208",
+    "procedure_types": 39,
+    "months_active": 84,
+    "total_paid": 1281885231.5200448,
+    "total_claims": 10541518,
+    "total_beneficiaries": 3026410,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1376554592",
+    "procedure_types": 5,
+    "months_active": 84,
+    "total_paid": 1225040114.1899998,
+    "total_claims": 1593649,
+    "total_beneficiaries": 1193380,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1518096411",
+    "procedure_types": 13,
+    "months_active": 82,
+    "total_paid": 1143418621.1699996,
+    "total_claims": 1557105,
+    "total_beneficiaries": 197206,
+    "first_claim": "2018-01",
+    "last_claim": "2024-10"
+  },
+  {
+    "npi": "1700090834",
+    "procedure_types": 37,
+    "months_active": 83,
+    "total_paid": 1125938944.4900048,
+    "total_claims": 14999665,
+    "total_beneficiaries": 1524414,
+    "first_claim": "2018-01",
+    "last_claim": "2024-11"
+  },
+  {
+    "npi": "1780816991",
+    "procedure_types": 10,
+    "months_active": 84,
+    "total_paid": 1107509967.2099993,
+    "total_claims": 6915432,
+    "total_beneficiaries": 328024,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1275657553",
+    "procedure_types": 9,
+    "months_active": 84,
+    "total_paid": 1101806879.9999998,
+    "total_claims": 7622845,
+    "total_beneficiaries": 377858,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1134250475",
+    "procedure_types": 10,
+    "months_active": 82,
+    "total_paid": 1097550708.1899998,
+    "total_claims": 1432892,
+    "total_beneficiaries": 259050,
+    "first_claim": "2018-01",
+    "last_claim": "2024-10"
+  },
+  {
+    "npi": "1376097303",
+    "procedure_types": 4,
+    "months_active": 84,
+    "total_paid": 1081483692.76,
+    "total_claims": 6692707,
+    "total_beneficiaries": 304210,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1578778726",
+    "procedure_types": 1431,
+    "months_active": 84,
+    "total_paid": 1080566062.7099948,
+    "total_claims": 23557851,
+    "total_beneficiaries": 17395896,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1083783013",
+    "procedure_types": 7,
+    "months_active": 84,
+    "total_paid": 1077342251.7,
+    "total_claims": 5875713,
+    "total_beneficiaries": 264344,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1326168840",
+    "procedure_types": 3,
+    "months_active": 84,
+    "total_paid": 1073667311.3399994,
+    "total_claims": 3312341,
+    "total_beneficiaries": 621736,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1659402303",
+    "procedure_types": 65,
+    "months_active": 76,
+    "total_paid": 1068150354.8600025,
+    "total_claims": 6138417,
+    "total_beneficiaries": 1263528,
+    "first_claim": "2018-01",
+    "last_claim": "2024-04"
+  },
+  {
+    "npi": "1184703415",
+    "procedure_types": 6,
+    "months_active": 83,
+    "total_paid": 1061917965.8399999,
+    "total_claims": 5015054,
+    "total_beneficiaries": 227919,
+    "first_claim": "2018-01",
+    "last_claim": "2024-11"
+  },
+  {
+    "npi": "1720145378",
+    "procedure_types": 47,
+    "months_active": 84,
+    "total_paid": 1061171577.1300013,
+    "total_claims": 10544174,
+    "total_beneficiaries": 655257,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1194934471",
+    "procedure_types": 58,
+    "months_active": 83,
+    "total_paid": 1053552904.8400041,
+    "total_claims": 6532613,
+    "total_beneficiaries": 1679994,
+    "first_claim": "2018-01",
+    "last_claim": "2024-11"
+  },
+  {
+    "npi": "1396049987",
+    "procedure_types": 17,
+    "months_active": 63,
+    "total_paid": 1042893317.11,
+    "total_claims": 2757160,
+    "total_beneficiaries": 240183,
+    "first_claim": "2019-10",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1518098359",
+    "procedure_types": 2,
+    "months_active": 48,
+    "total_paid": 1037216238.4000003,
+    "total_claims": 11206578,
+    "total_beneficiaries": 427194,
+    "first_claim": "2018-01",
+    "last_claim": "2021-12"
+  },
+  {
+    "npi": "1518049485",
+    "procedure_types": 9,
+    "months_active": 84,
+    "total_paid": 1025590031.9799999,
+    "total_claims": 5716218,
+    "total_beneficiaries": 292702,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1932341898",
+    "procedure_types": 2,
+    "months_active": 84,
+    "total_paid": 996801121.5399997,
+    "total_claims": 306131,
+    "total_beneficiaries": 283973,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1952476988",
+    "procedure_types": 1445,
+    "months_active": 84,
+    "total_paid": 961141901.3700011,
+    "total_claims": 17112336,
+    "total_beneficiaries": 14680462,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1457410904",
+    "procedure_types": 5,
+    "months_active": 84,
+    "total_paid": 953479646.0799998,
+    "total_claims": 5589304,
+    "total_beneficiaries": 252276,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1093834020",
+    "procedure_types": 17,
+    "months_active": 84,
+    "total_paid": 910633453.0600008,
+    "total_claims": 51017667,
+    "total_beneficiaries": 4556652,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1043386659",
+    "procedure_types": 56,
+    "months_active": 83,
+    "total_paid": 903144307.9599969,
+    "total_claims": 4320082,
+    "total_beneficiaries": 1851576,
+    "first_claim": "2018-01",
+    "last_claim": "2024-11"
+  },
+  {
+    "npi": "1134260078",
+    "procedure_types": 21,
+    "months_active": 84,
+    "total_paid": 894406192.5199963,
+    "total_claims": 34388480,
+    "total_beneficiaries": 5029593,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1124304621",
+    "procedure_types": 2,
+    "months_active": 84,
+    "total_paid": 887501813.4099997,
+    "total_claims": 5599208,
+    "total_beneficiaries": 465275,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1245354000",
+    "procedure_types": 15,
+    "months_active": 82,
+    "total_paid": 881889979.7799997,
+    "total_claims": 781227,
+    "total_beneficiaries": 138263,
+    "first_claim": "2018-01",
+    "last_claim": "2024-10"
+  },
+  {
+    "npi": "1871821710",
+    "procedure_types": 6,
+    "months_active": 84,
+    "total_paid": 865877079.4300001,
+    "total_claims": 4759464,
+    "total_beneficiaries": 241832,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1679525919",
+    "procedure_types": 1579,
+    "months_active": 84,
+    "total_paid": 863549395.7599773,
+    "total_claims": 16016267,
+    "total_beneficiaries": 12948304,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1053321869",
+    "procedure_types": 8,
+    "months_active": 84,
+    "total_paid": 858202022.0399992,
+    "total_claims": 14797415,
+    "total_beneficiaries": 773734,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1033571658",
+    "procedure_types": 4,
+    "months_active": 84,
+    "total_paid": 848211431.1000006,
+    "total_claims": 5704959,
+    "total_beneficiaries": 251721,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1801060363",
+    "procedure_types": 6,
+    "months_active": 84,
+    "total_paid": 842517560.2100003,
+    "total_claims": 5447800,
+    "total_beneficiaries": 250306,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1730438706",
+    "procedure_types": 7,
+    "months_active": 84,
+    "total_paid": 840475278.0400002,
+    "total_claims": 4928110,
+    "total_beneficiaries": 227232,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1063497451",
+    "procedure_types": 712,
+    "months_active": 84,
+    "total_paid": 717466640.8199985,
+    "total_claims": 109455732,
+    "total_beneficiaries": 101685925,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1366479099",
+    "procedure_types": 708,
+    "months_active": 84,
+    "total_paid": 668499553.8200082,
+    "total_claims": 111637602,
+    "total_beneficiaries": 108161020,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1225163876",
+    "procedure_types": 8,
+    "months_active": 83,
+    "total_paid": 33492549.82,
+    "total_claims": 9306109,
+    "total_beneficiaries": 220675,
+    "first_claim": "2018-01",
+    "last_claim": "2024-11"
+  },
+  {
+    "npi": "1881789691",
+    "procedure_types": 5,
+    "months_active": 84,
+    "total_paid": 24041644.320000008,
+    "total_claims": 312564,
+    "total_beneficiaries": 5369,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1366573115",
+    "procedure_types": 1,
+    "months_active": 84,
+    "total_paid": 21462235.330000006,
+    "total_claims": 194369,
+    "total_beneficiaries": 2819,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "M917673800",
+    "procedure_types": 3,
+    "months_active": 12,
+    "total_paid": 20518571.92,
+    "total_claims": 465219,
+    "total_beneficiaries": 7444,
+    "first_claim": "2018-11",
+    "last_claim": "2019-10"
+  },
+  {
+    "npi": "1053533554",
+    "procedure_types": 3,
+    "months_active": 82,
+    "total_paid": 17630804.37,
+    "total_claims": 206108,
+    "total_beneficiaries": 3187,
+    "first_claim": "2018-01",
+    "last_claim": "2024-11"
+  },
+  {
+    "npi": "1982887022",
+    "procedure_types": 1,
+    "months_active": 83,
+    "total_paid": 14856090.159999996,
+    "total_claims": 163899,
+    "total_beneficiaries": 2262,
+    "first_claim": "2018-01",
+    "last_claim": "2024-11"
+  },
+  {
+    "npi": "1659629301",
+    "procedure_types": 4,
+    "months_active": 84,
+    "total_paid": 14500049.760000007,
+    "total_claims": 918636,
+    "total_beneficiaries": 9046,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1407430143",
+    "procedure_types": 5,
+    "months_active": 39,
+    "total_paid": 12154938.529999996,
+    "total_claims": 171039,
+    "total_beneficiaries": 1928,
+    "first_claim": "2021-09",
+    "last_claim": "2024-11"
+  },
+  {
+    "npi": "1689894701",
+    "procedure_types": 1,
+    "months_active": 84,
+    "total_paid": 9898592.81,
+    "total_claims": 89138,
+    "total_beneficiaries": 1349,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1457621633",
+    "procedure_types": 2,
+    "months_active": 73,
+    "total_paid": 9211296.949999997,
+    "total_claims": 310532,
+    "total_beneficiaries": 2641,
+    "first_claim": "2018-11",
+    "last_claim": "2024-11"
+  },
+  {
+    "npi": "1629249826",
+    "procedure_types": 1,
+    "months_active": 58,
+    "total_paid": 7805982,
+    "total_claims": 62576,
+    "total_beneficiaries": 915,
+    "first_claim": "2018-01",
+    "last_claim": "2022-11"
+  },
+  {
+    "npi": "1396068771",
+    "procedure_types": 2,
+    "months_active": 70,
+    "total_paid": 6635490.410000002,
+    "total_claims": 90364,
+    "total_beneficiaries": 1233,
+    "first_claim": "2019-03",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1245375823",
+    "procedure_types": 1,
+    "months_active": 40,
+    "total_paid": 4153719.8999999994,
+    "total_claims": 43932,
+    "total_beneficiaries": 648,
+    "first_claim": "2021-08",
+    "last_claim": "2024-11"
+  },
+  {
+    "npi": "1144989351",
+    "procedure_types": 2,
+    "months_active": 48,
+    "total_paid": 3513270.1900000004,
+    "total_claims": 324836,
+    "total_beneficiaries": 1381,
+    "first_claim": "2020-04",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1922157411",
+    "procedure_types": 2,
+    "months_active": 37,
+    "total_paid": 3204526.5599999996,
+    "total_claims": 52245,
+    "total_beneficiaries": 591,
+    "first_claim": "2020-04",
+    "last_claim": "2024-04"
+  },
+  {
+    "npi": "1356400550",
+    "procedure_types": 1,
+    "months_active": 35,
+    "total_paid": 2831254.05,
+    "total_claims": 33207,
+    "total_beneficiaries": 573,
+    "first_claim": "2018-01",
+    "last_claim": "2023-11"
+  },
+  {
+    "npi": "1831402296",
+    "procedure_types": 1,
+    "months_active": 24,
+    "total_paid": 2526883.0300000003,
+    "total_claims": 17925,
+    "total_beneficiaries": 298,
+    "first_claim": "2018-01",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1609321710",
+    "procedure_types": 1,
+    "months_active": 58,
+    "total_paid": 2414321.21,
+    "total_claims": 63639,
+    "total_beneficiaries": 1031,
+    "first_claim": "2020-03",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1629464227",
+    "procedure_types": 2,
+    "months_active": 26,
+    "total_paid": 2283142.2,
+    "total_claims": 26088,
+    "total_beneficiaries": 378,
+    "first_claim": "2020-01",
+    "last_claim": "2022-10"
+  },
+  {
+    "npi": "1558971606",
+    "procedure_types": 1,
+    "months_active": 25,
+    "total_paid": 1176471.1400000001,
+    "total_claims": 37937,
+    "total_beneficiaries": 649,
+    "first_claim": "2022-11",
+    "last_claim": "2024-11"
+  },
+  {
+    "npi": "1265753305",
+    "procedure_types": 1,
+    "months_active": 32,
+    "total_paid": 1034469.11,
+    "total_claims": 30171,
+    "total_beneficiaries": 426,
+    "first_claim": "2018-01",
+    "last_claim": "2024-06"
+  },
+  {
+    "npi": "1952915910",
+    "procedure_types": 1,
+    "months_active": 28,
+    "total_paid": 716795.12,
+    "total_claims": 288957,
+    "total_beneficiaries": 581,
+    "first_claim": "2021-06",
+    "last_claim": "2023-09"
+  },
+  {
+    "npi": "1023587854",
+    "procedure_types": 1,
+    "months_active": 54,
+    "total_paid": 707584.7,
+    "total_claims": 91888,
+    "total_beneficiaries": 1605,
+    "first_claim": "2020-06",
+    "last_claim": "2024-11"
+  },
+  {
+    "npi": "1417409509",
+    "procedure_types": 1,
+    "months_active": 27,
+    "total_paid": 548617.29,
+    "total_claims": 140266,
+    "total_beneficiaries": 538,
+    "first_claim": "2020-11",
+    "last_claim": "2023-01"
+  },
+  {
+    "npi": "1659572790",
+    "procedure_types": 1,
+    "months_active": 5,
+    "total_paid": 393183.8,
+    "total_claims": 4815,
+    "total_beneficiaries": 65,
+    "first_claim": "2018-01",
+    "last_claim": "2018-05"
+  },
+  {
+    "npi": "1558061242",
+    "procedure_types": 1,
+    "months_active": 7,
+    "total_paid": 364850.56,
+    "total_claims": 5877,
+    "total_beneficiaries": 97,
+    "first_claim": "2023-11",
+    "last_claim": "2024-06"
+  },
+  {
+    "npi": "1902047293",
+    "procedure_types": 3,
+    "months_active": 13,
+    "total_paid": 311530.04000000004,
+    "total_claims": 17657,
+    "total_beneficiaries": 259,
+    "first_claim": "2018-09",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1538911029",
+    "procedure_types": 1,
+    "months_active": 3,
+    "total_paid": 278290.87,
+    "total_claims": 4008,
+    "total_beneficiaries": 55,
+    "first_claim": "2024-09",
+    "last_claim": "2024-11"
+  },
+  {
+    "npi": "1770509051",
+    "procedure_types": 1,
+    "months_active": 3,
+    "total_paid": 241213.76,
+    "total_claims": 2959,
+    "total_beneficiaries": 47,
+    "first_claim": "2023-05",
+    "last_claim": "2023-07"
+  },
+  {
+    "npi": "1922163971",
+    "procedure_types": 1,
+    "months_active": 12,
+    "total_paid": 200986.5,
+    "total_claims": 12190,
+    "total_beneficiaries": 185,
+    "first_claim": "2018-01",
+    "last_claim": "2018-12"
+  },
+  {
+    "npi": "1669479150",
+    "procedure_types": 1,
+    "months_active": 15,
+    "total_paid": 157230.54,
+    "total_claims": 13339,
+    "total_beneficiaries": 200,
+    "first_claim": "2020-10",
+    "last_claim": "2022-03"
+  },
+  {
+    "npi": "1699318675",
+    "procedure_types": 1,
+    "months_active": 25,
+    "total_paid": 142837.81,
+    "total_claims": 18764,
+    "total_beneficiaries": 328,
+    "first_claim": "2020-09",
+    "last_claim": "2024-06"
+  },
+  {
+    "npi": "1740333681",
+    "procedure_types": 1,
+    "months_active": 32,
+    "total_paid": 130446.98000000001,
+    "total_claims": 32862,
+    "total_beneficiaries": 503,
+    "first_claim": "2019-10",
+    "last_claim": "2024-06"
+  },
+  {
+    "npi": "1790063576",
+    "procedure_types": 1,
+    "months_active": 3,
+    "total_paid": 107449.54000000001,
+    "total_claims": 2123,
+    "total_beneficiaries": 37,
+    "first_claim": "2018-01",
+    "last_claim": "2018-03"
+  },
+  {
+    "npi": "1023413093",
+    "procedure_types": 1,
+    "months_active": 10,
+    "total_paid": 70175.19,
+    "total_claims": 7612,
+    "total_beneficiaries": 126,
+    "first_claim": "2019-06",
+    "last_claim": "2020-04"
+  },
+  {
+    "npi": "1063764082",
+    "procedure_types": 1,
+    "months_active": 4,
+    "total_paid": 62827.53,
+    "total_claims": 4142,
+    "total_beneficiaries": 51,
+    "first_claim": "2024-07",
+    "last_claim": "2024-11"
+  },
+  {
+    "npi": "1679092902",
+    "procedure_types": 1,
+    "months_active": 1,
+    "total_paid": 59770.31,
+    "total_claims": 739,
+    "total_beneficiaries": 12,
+    "first_claim": "2024-01",
+    "last_claim": "2024-01"
+  },
+  {
+    "npi": "1467227744",
+    "procedure_types": 1,
+    "months_active": 3,
+    "total_paid": 53978.31999999999,
+    "total_claims": 5018,
+    "total_beneficiaries": 44,
+    "first_claim": "2024-10",
+    "last_claim": "2024-12"
+  },
+  {
+    "npi": "1477108546",
+    "procedure_types": 4,
+    "months_active": 4,
+    "total_paid": 47071.95,
+    "total_claims": 13282,
+    "total_beneficiaries": 175,
+    "first_claim": "2020-06",
+    "last_claim": "2021-09"
+  },
+  {
+    "npi": "1538527106",
+    "procedure_types": 1,
+    "months_active": 6,
+    "total_paid": 42184.96,
+    "total_claims": 4689,
+    "total_beneficiaries": 72,
+    "first_claim": "2019-02",
+    "last_claim": "2019-07"
+  },
+  {
+    "npi": "1477135598",
+    "procedure_types": 1,
+    "months_active": 1,
+    "total_paid": 40319.42,
+    "total_claims": 804,
+    "total_beneficiaries": 12,
+    "first_claim": "2024-02",
+    "last_claim": "2024-02"
+  },
+  {
+    "npi": "1497809172",
+    "procedure_types": 1,
+    "months_active": 2,
+    "total_paid": 18409.66,
+    "total_claims": 1831,
+    "total_beneficiaries": 24,
+    "first_claim": "2018-03",
+    "last_claim": "2018-08"
+  },
+  {
+    "npi": "1215378161",
+    "procedure_types": 1,
+    "months_active": 5,
+    "total_paid": 14785.44,
+    "total_claims": 3853,
+    "total_beneficiaries": 65,
+    "first_claim": "2020-07",
+    "last_claim": "2020-11"
+  },
+  {
+    "npi": "1912620220",
+    "procedure_types": 1,
+    "months_active": 2,
+    "total_paid": 0,
+    "total_claims": 2346,
+    "total_beneficiaries": 40,
+    "first_claim": "2023-10",
+    "last_claim": "2023-11"
+  },
+  {
+    "npi": "1871970756",
+    "procedure_types": 2,
+    "months_active": 2,
+    "total_paid": 0,
+    "total_claims": 22064,
+    "total_beneficiaries": 361,
+    "first_claim": "2018-10",
+    "last_claim": "2018-11"
+  },
+  {
+    "npi": "A953100100",
+    "procedure_types": 1,
+    "months_active": 1,
+    "total_paid": 0,
+    "total_claims": 1456,
+    "total_beneficiaries": 19,
+    "first_claim": "2018-02",
+    "last_claim": "2018-02"
+  },
+  {
+    "npi": "A688962300",
+    "procedure_types": 1,
+    "months_active": 1,
+    "total_paid": 0,
+    "total_claims": 1460,
+    "total_beneficiaries": 24,
+    "first_claim": "2019-09",
+    "last_claim": "2019-09"
+  },
+  {
+    "npi": "1356637573",
+    "procedure_types": 2,
+    "months_active": 5,
+    "total_paid": 0,
+    "total_claims": 13250,
+    "total_beneficiaries": 211,
+    "first_claim": "2018-10",
+    "last_claim": "2024-10"
+  },
+  {
+    "npi": "201016020A",
+    "procedure_types": 1,
+    "months_active": 2,
+    "total_paid": 0,
+    "total_claims": 3564,
+    "total_beneficiaries": 35,
+    "first_claim": "2018-04",
+    "last_claim": "2018-05"
+  },
+  {
+    "npi": "1174767743",
+    "procedure_types": 3,
+    "months_active": 1,
+    "total_paid": 0,
+    "total_claims": 2277,
+    "total_beneficiaries": 39,
+    "first_claim": "2022-07",
+    "last_claim": "2022-07"
+  },
+  {
+    "npi": "A597427800",
+    "procedure_types": 1,
+    "months_active": 1,
+    "total_paid": 0,
+    "total_claims": 1024,
+    "total_beneficiaries": 16,
+    "first_claim": "2019-09",
+    "last_claim": "2019-09"
+  }
+]

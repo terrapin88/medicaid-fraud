@@ -6,65 +6,83 @@
   <title>Medicaid Fraud Audit | Public Transparency Tool</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    :root { --bg: #0a0a0a; --fg: #ededed; --accent: #00ff88; --warning: #ff6b6b; --muted: #666; --card-bg: #111; --border: #222; }
+    :root { --bg: #0a0a0a; --fg: #ededed; --accent: #00ff88; --warning: #ff6b6b; --muted: #666; --card-bg: #111; --border: #222; --critical: #ff0040; }
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.6; padding: 2rem; }
     .container { max-width: 1400px; margin: 0 auto; }
     h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
     .subtitle { color: var(--muted); font-size: 1.1rem; margin-bottom: 2rem; }
-    .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
-    .stat-card { background: var(--card-bg); border: 1px solid var(--border); padding: 1.5rem; border-radius: 8px; }
-    .stat-card .label { color: var(--muted); font-size: 0.85rem; text-transform: uppercase; }
-    .stat-card .value { font-size: 2rem; font-weight: 700; color: var(--accent); }
+    .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+    .stat-card { background: var(--card-bg); border: 1px solid var(--border); padding: 1.25rem; border-radius: 8px; }
+    .stat-card .label { color: var(--muted); font-size: 0.8rem; text-transform: uppercase; }
+    .stat-card .value { font-size: 1.75rem; font-weight: 700; color: var(--accent); }
+    .stat-card.critical { border-color: var(--critical); background: rgba(255,0,64,0.1); }
+    .stat-card.critical .value { color: var(--critical); }
     .section { margin-bottom: 3rem; }
-    .section h2 { font-size: 1.5rem; margin-bottom: 1rem; }
+    .section h2 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+    .section-desc { color: var(--muted); font-size: 0.9rem; margin-bottom: 1rem; }
     .flag-count { background: var(--warning); color: var(--bg); padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.85rem; margin-left: 0.5rem; }
-    table { width: 100%; border-collapse: collapse; font-size: 0.9rem; background: var(--card-bg); }
-    th, td { padding: 0.75rem 1rem; text-align: left; border-bottom: 1px solid var(--border); }
-    th { background: #1a1a1a; font-weight: 600; text-transform: uppercase; font-size: 0.7rem; color: var(--muted); }
+    .critical-alert { background: linear-gradient(135deg, rgba(255,0,64,0.2), rgba(255,0,64,0.1)); border: 2px solid var(--critical); border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; }
+    .critical-alert h2 { color: var(--critical); margin-bottom: 1rem; }
+    .critical-alert .provider-card { background: rgba(0,0,0,0.3); padding: 1rem; border-radius: 8px; margin-top: 1rem; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.85rem; background: var(--card-bg); }
+    th, td { padding: 0.6rem 0.8rem; text-align: left; border-bottom: 1px solid var(--border); }
+    th { background: #1a1a1a; font-weight: 600; text-transform: uppercase; font-size: 0.65rem; color: var(--muted); }
     tr:hover { background: rgba(255,255,255,0.02); }
     .provider-name { font-weight: 600; color: var(--fg); }
     .provider-name a { color: var(--fg); text-decoration: none; }
     .provider-name a:hover { color: var(--accent); text-decoration: underline; }
-    .npi { font-family: monospace; color: var(--muted); font-size: 0.8rem; }
-    .location { color: var(--muted); font-size: 0.85rem; }
+    .npi { font-family: monospace; color: var(--muted); font-size: 0.75rem; }
     .money { font-family: monospace; color: var(--accent); }
     .high-risk { color: var(--warning); font-weight: 600; }
-    .badge { display: inline-block; padding: 0.2rem 0.4rem; border-radius: 4px; font-size: 0.65rem; font-weight: 600; text-transform: uppercase; }
+    .critical-risk { color: var(--critical); font-weight: 700; }
+    .badge { display: inline-block; padding: 0.15rem 0.35rem; border-radius: 4px; font-size: 0.6rem; font-weight: 600; text-transform: uppercase; }
     .badge-outlier { background: rgba(255,107,107,0.2); color: var(--warning); }
     .badge-volume { background: rgba(255,193,7,0.2); color: #ffc107; }
     .badge-ghost { background: rgba(156,39,176,0.2); color: #ce93d8; }
+    .badge-oig { background: rgba(255,0,64,0.3); color: var(--critical); }
+    .badge-spike { background: rgba(255,152,0,0.2); color: #ff9800; }
+    .procedures { font-size: 0.75rem; color: var(--muted); }
+    .spike-indicator { color: #ff9800; font-weight: 600; }
+    .peer-stat { font-size: 0.75rem; color: var(--muted); }
     .footer { margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.85rem; }
     .footer a { color: var(--accent); }
     .loading { text-align: center; padding: 4rem; color: var(--muted); }
-    .type-tag { font-size: 0.7rem; color: var(--muted); background: var(--border); padding: 0.15rem 0.4rem; border-radius: 3px; margin-left: 0.5rem; }
+    .type-tag { font-size: 0.6rem; color: var(--muted); background: var(--border); padding: 0.1rem 0.3rem; border-radius: 3px; margin-left: 0.3rem; }
+    .evidence-list { list-style: none; margin-top: 0.5rem; }
+    .evidence-list li { padding: 0.25rem 0; font-size: 0.9rem; }
+    .evidence-list li:before { content: "⚠️ "; }
+    .evidence-list li.critical:before { content: "🚨 "; }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>🏥 Medicaid Fraud Audit</h1>
-    <p class="subtitle">Public transparency tool analyzing Medicaid provider spending (2018-2024)</p>
+    <p class="subtitle">Public transparency tool analyzing $1+ trillion in Medicaid spending (2018-2024)</p>
     
     <div id="content" class="loading">Loading analysis data...</div>
   </div>
 
   <script>
     const formatMoney = (n) => {
+      if (!n) return '$0';
       if (n >= 1e9) return `$${(n/1e9).toFixed(2)}B`;
       if (n >= 1e6) return `$${(n/1e6).toFixed(2)}M`;
       if (n >= 1e3) return `$${(n/1e3).toFixed(1)}K`;
       return `$${n.toFixed(2)}`;
     };
-    const formatNumber = (n) => new Intl.NumberFormat().format(n);
+    const formatNumber = (n) => n ? new Intl.NumberFormat().format(n) : '0';
     
     async function loadData() {
       try {
-        const [statsRes, flagsRes] = await Promise.all([
+        const [statsRes, flagsRes, deepRes] = await Promise.all([
           fetch('basic-stats.json'),
-          fetch('fraud-flags.json')
+          fetch('fraud-flags.json'),
+          fetch('deep-analysis.json').catch(() => ({ json: () => ({}) }))
         ]);
         const stats = await statsRes.json();
         const flags = await flagsRes.json();
-        render(stats, flags);
+        const deep = await deepRes.json();
+        render(stats, flags, deep);
       } catch(e) {
         document.getElementById('content').innerHTML = 'Error loading data: ' + e.message;
       }
@@ -73,92 +91,187 @@
     function providerCell(r) {
       const name = r.provider_name || 'Unknown Provider';
       const loc = r.state ? `${r.city || ''}, ${r.state}`.replace(/^, /, '') : '';
-      const type = r.provider_type === 'Organization' ? 'Org' : 'Individual';
+      const type = r.provider_type === 'Organization' ? 'Org' : 'Ind';
       return `
         <td>
           <div class="provider-name">
             <a href="https://npiregistry.cms.hhs.gov/provider-view/${r.npi}" target="_blank">${name}</a>
             <span class="type-tag">${type}</span>
+            ${r.oig_excluded ? '<span class="badge badge-oig">OIG EXCLUDED</span>' : ''}
           </div>
           <div class="npi">NPI: ${r.npi}${loc ? ' · ' + loc : ''}</div>
         </td>
       `;
     }
     
-    function render(stats, flags) {
+    function render(stats, flags, deep) {
       const totalFlagged = flags.summary.high_volume_outliers + flags.summary.impossible_volume + flags.summary.ghost_patient_patterns;
+      const oigCount = deep.oig_matches?.length || 0;
+      const spikeCount = deep.summary?.providers_with_spikes || 0;
+      
+      // Build OIG alert section if matches exist
+      let oigAlert = '';
+      if (oigCount > 0) {
+        const oigMatches = deep.oig_matches.map(m => {
+          const profile = deep.enhanced_profiles?.find(p => p.npi === m.npi) || {};
+          return `
+            <div class="provider-card">
+              <div class="provider-name" style="font-size:1.1rem">
+                <a href="https://npiregistry.cms.hhs.gov/provider-view/${m.npi}" target="_blank" style="color:var(--critical)">
+                  ${profile.provider_name || m.BUSNAME || m.LASTNAME || 'Unknown'}
+                </a>
+              </div>
+              <div class="npi">NPI: ${m.npi} · ${profile.city || ''}, ${profile.state || ''}</div>
+              <ul class="evidence-list">
+                <li class="critical">Excluded from federal programs: ${m.EXCLDATE?.slice(0,4)}-${m.EXCLDATE?.slice(4,6)}-${m.EXCLDATE?.slice(6,8)}</li>
+                <li class="critical">Exclusion type: ${m.EXCLTYPE} (${getExclusionDesc(m.EXCLTYPE)})</li>
+                <li class="critical" style="font-size:1.1rem;font-weight:bold">Paid while excluded: ${formatMoney(m.total_paid_while_excluded)}</li>
+              </ul>
+            </div>
+          `;
+        }).join('');
+        
+        oigAlert = `
+          <div class="critical-alert">
+            <h2>🚨 CRITICAL: Excluded Providers Billing Medicaid</h2>
+            <p>The following providers appear on the OIG List of Excluded Individuals/Entities (LEIE) but have received Medicaid payments. This is a federal crime under 42 U.S.C. § 1320a-7b.</p>
+            ${oigMatches}
+          </div>
+        `;
+      }
       
       document.getElementById('content').innerHTML = `
+        ${oigAlert}
+        
         <div class="stats-grid">
           <div class="stat-card"><div class="label">Total Analyzed</div><div class="value">${formatMoney(stats.total_paid)}</div></div>
-          <div class="stat-card"><div class="label">Providers Analyzed</div><div class="value">${formatNumber(stats.unique_billing_providers)}</div></div>
-          <div class="stat-card"><div class="label">Flagged for Review</div><div class="value" style="color:var(--warning)">${formatNumber(totalFlagged)}</div></div>
-          <div class="stat-card"><div class="label">Time Period</div><div class="value" style="font-size:1.2rem">${stats.earliest_month} – ${stats.latest_month}</div></div>
+          <div class="stat-card"><div class="label">Providers</div><div class="value">${formatNumber(stats.unique_billing_providers)}</div></div>
+          <div class="stat-card"><div class="label">Flagged</div><div class="value" style="color:var(--warning)">${formatNumber(totalFlagged)}</div></div>
+          ${oigCount > 0 ? `<div class="stat-card critical"><div class="label">OIG Excluded</div><div class="value">${oigCount}</div></div>` : ''}
+          <div class="stat-card"><div class="label">Payment Spikes</div><div class="value" style="color:#ff9800">${spikeCount}</div></div>
+          <div class="stat-card"><div class="label">Period</div><div class="value" style="font-size:1rem">${stats.earliest_month} – ${stats.latest_month}</div></div>
         </div>
         
         <div class="section">
           <h2>🚨 Statistical Outliers <span class="flag-count">${flags.summary.high_volume_outliers}</span></h2>
-          <p style="color:var(--muted);margin-bottom:1rem;font-size:0.9rem">Providers with payments more than 5 standard deviations above the mean</p>
+          <p class="section-desc">Providers with payments >5 standard deviations above mean. Includes peer comparison (× median).</p>
           <table>
-            <thead><tr><th>Provider</th><th>Total Paid</th><th>Claims</th><th>Z-Score</th><th>Flag</th></tr></thead>
+            <thead><tr><th>Provider</th><th>Total Paid</th><th>Claims</th><th>× Median</th><th>Z-Score</th><th>Flags</th></tr></thead>
             <tbody>
-              ${flags.flags.high_volume_outliers.slice(0,30).map(r => `
-                <tr>
-                  ${providerCell(r)}
-                  <td class="money">${formatMoney(r.total_paid)}</td>
-                  <td>${formatNumber(r.total_claims)}</td>
-                  <td class="high-risk">${r.paid_zscore?.toFixed(1)}σ</td>
-                  <td><span class="badge badge-outlier">OUTLIER</span></td>
-                </tr>
-              `).join('')}
+              ${getEnhancedRows(flags.flags.high_volume_outliers, deep, 'outlier').join('')}
             </tbody>
           </table>
         </div>
         
         <div class="section">
           <h2>⚡ Impossible Daily Volumes <span class="flag-count">${flags.summary.impossible_volume}</span></h2>
-          <p style="color:var(--muted);margin-bottom:1rem;font-size:0.9rem">Providers averaging more than 100 claims per working day in a month</p>
+          <p class="section-desc">Providers averaging >100 claims per working day — physically impossible for most services.</p>
           <table>
-            <thead><tr><th>Provider</th><th>Peak Month</th><th>Monthly Claims</th><th>Claims/Day</th><th>Flag</th></tr></thead>
+            <thead><tr><th>Provider</th><th>Peak Month</th><th>Claims/Day</th><th>Top Procedure</th><th>Flags</th></tr></thead>
             <tbody>
-              ${flags.flags.impossible_volume.slice(0,30).map(r => `
-                <tr>
-                  ${providerCell(r)}
-                  <td>${r.peak_month?.slice(0,7) || 'N/A'}</td>
-                  <td>${formatNumber(r.monthly_claims)}</td>
-                  <td class="high-risk">${r.claims_per_day?.toFixed(0)}/day</td>
-                  <td><span class="badge badge-volume">HIGH VOLUME</span></td>
-                </tr>
-              `).join('')}
+              ${getEnhancedRows(flags.flags.impossible_volume, deep, 'volume').join('')}
             </tbody>
           </table>
         </div>
         
         <div class="section">
           <h2>👻 Ghost Patient Patterns <span class="flag-count">${flags.summary.ghost_patient_patterns}</span></h2>
-          <p style="color:var(--muted);margin-bottom:1rem;font-size:0.9rem">Providers with more than 50 claims per unique patient (potential repeat billing)</p>
+          <p class="section-desc">Providers billing >50 claims per unique patient — potential phantom billing.</p>
           <table>
-            <thead><tr><th>Provider</th><th>Total Claims</th><th>Unique Patients</th><th>Claims/Patient</th><th>Flag</th></tr></thead>
+            <thead><tr><th>Provider</th><th>Claims</th><th>Patients</th><th>Claims/Patient</th><th>Flags</th></tr></thead>
             <tbody>
-              ${flags.flags.ghost_patient_patterns.slice(0,30).map(r => `
+              ${getEnhancedRows(flags.flags.ghost_patient_patterns, deep, 'ghost').join('')}
+            </tbody>
+          </table>
+        </div>
+        
+        ${deep.high_risk_procedures?.length ? `
+        <div class="section">
+          <h2>💊 High-Risk Procedure Codes</h2>
+          <p class="section-desc">Most-billed procedure codes by flagged providers.</p>
+          <table>
+            <thead><tr><th>HCPCS Code</th><th>Category</th><th>Total Paid</th><th>Claims</th><th>Flagged Providers Using</th></tr></thead>
+            <tbody>
+              ${deep.high_risk_procedures.slice(0,20).map(p => `
                 <tr>
-                  ${providerCell(r)}
-                  <td>${formatNumber(r.total_claims)}</td>
-                  <td>${formatNumber(r.total_beneficiaries)}</td>
-                  <td class="high-risk">${r.claims_per_beneficiary?.toFixed(0)}x</td>
-                  <td><span class="badge badge-ghost">GHOST</span></td>
+                  <td><code>${p.HCPCS_CODE}</code></td>
+                  <td>${p.category}</td>
+                  <td class="money">${formatMoney(p.total_paid)}</td>
+                  <td>${formatNumber(p.total_claims)}</td>
+                  <td>${p.flagged_providers_using}</td>
                 </tr>
               `).join('')}
             </tbody>
           </table>
         </div>
+        ` : ''}
         
         <div class="footer">
-          <p><strong>Data Source:</strong> <a href="https://opendata.hhs.gov/datasets/medicaid-provider-spending/" target="_blank">HHS Open Data - Medicaid Provider Spending</a> (T-MSIS)</p>
-          <p><strong>Analysis Date:</strong> ${flags.generated_at}</p>
-          <p style="margin-top:1rem"><em>⚠️ These flags indicate statistical anomalies that warrant further investigation. They do not constitute proof of fraud. Provider names obtained from NPI Registry.</em></p>
+          <p><strong>Data Sources:</strong></p>
+          <ul style="margin:0.5rem 0 1rem 1.5rem">
+            <li><a href="https://opendata.hhs.gov/datasets/medicaid-provider-spending/" target="_blank">HHS Open Data - Medicaid Provider Spending</a> (T-MSIS)</li>
+            <li><a href="https://oig.hhs.gov/exclusions/" target="_blank">OIG List of Excluded Individuals/Entities</a> (LEIE)</li>
+            <li><a href="https://npiregistry.cms.hhs.gov/" target="_blank">CMS NPI Registry</a></li>
+          </ul>
+          <p><strong>Analysis Date:</strong> ${flags.generated_at || deep.generated_at}</p>
+          <p style="margin-top:1rem"><em>⚠️ Flags indicate statistical anomalies warranting investigation. Provider names from NPI Registry. Exclusion data from OIG LEIE.</em></p>
         </div>
       `;
+    }
+    
+    function getEnhancedRows(flagList, deep, type) {
+      return flagList.slice(0,25).map(r => {
+        const profile = deep.enhanced_profiles?.find(p => p.npi === r.npi) || r;
+        const badges = [];
+        if (profile.oig_excluded) badges.push('<span class="badge badge-oig">OIG EXCLUDED</span>');
+        if (profile.suspicious_spikes?.length) badges.push('<span class="badge badge-spike">SPIKE</span>');
+        
+        const peer = profile.peer_comparison;
+        const topProc = profile.top_procedures?.[0];
+        
+        if (type === 'outlier') {
+          return `<tr>
+            ${providerCell({...r, ...profile})}
+            <td class="money">${formatMoney(r.total_paid)}</td>
+            <td>${formatNumber(r.total_claims)}</td>
+            <td class="high-risk">${peer?.times_median_paid ? Math.round(peer.times_median_paid).toLocaleString() + '×' : '—'}</td>
+            <td class="high-risk">${r.paid_zscore?.toFixed(1)}σ</td>
+            <td>${badges.join(' ')}</td>
+          </tr>`;
+        } else if (type === 'volume') {
+          return `<tr>
+            ${providerCell({...r, ...profile})}
+            <td>${r.peak_month?.slice(0,7) || '—'}</td>
+            <td class="high-risk">${r.claims_per_day?.toFixed(0)}/day</td>
+            <td class="procedures">${topProc ? topProc.code : '—'}</td>
+            <td>${badges.join(' ')}</td>
+          </tr>`;
+        } else {
+          return `<tr>
+            ${providerCell({...r, ...profile})}
+            <td>${formatNumber(r.total_claims)}</td>
+            <td>${formatNumber(r.total_beneficiaries)}</td>
+            <td class="high-risk">${r.claims_per_beneficiary?.toFixed(0)}×</td>
+            <td>${badges.join(' ')}</td>
+          </tr>`;
+        }
+      });
+    }
+    
+    function getExclusionDesc(code) {
+      const codes = {
+        '1128a1': 'Conviction of program-related crimes',
+        '1128a2': 'Conviction of patient abuse',
+        '1128a3': 'Felony conviction for healthcare fraud',
+        '1128a4': 'Felony conviction for controlled substance',
+        '1128b1': 'Misdemeanor conviction relating to healthcare fraud',
+        '1128b2': 'Misdemeanor conviction relating to controlled substance',
+        '1128b4': 'License revocation or suspension',
+        '1128b5': 'Exclusion or suspension under federal or state program',
+        '1128b6': 'Claims for excessive charges or unnecessary services',
+        '1128b7': 'Fraud, kickbacks and other prohibited activities',
+      };
+      return codes[code] || 'Other exclusion';
     }
     
     loadData();

@@ -3810,5 +3810,18 @@
       "total_claims": 7894247,
       "avg_payment_per_claim": 1790.2520592470805
     }
-  ]
+  ],
+  "oig_matches": [
+    {
+      "npi": "1952915910",
+      "LASTNAME": "WILLIAMS",
+      "FIRSTNAME": "LORI",
+      "BUSNAME": null,
+      "EXCLTYPE": "1128a1",
+      "EXCLDATE": 20260120,
+      "REINDATE": "00000000",
+      "total_paid_while_excluded": 716795.12
+    }
+  ],
+  "providers_with_payment_spikes": 49
 }

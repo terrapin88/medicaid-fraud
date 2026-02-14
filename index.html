@@ -63,6 +63,12 @@
   </div>
 
   <script>
+    const formatDate = (d) => {
+      if (!d) return 'Unknown';
+      const s = String(d);
+      if (s.length === 8) return `${s.slice(0,4)}-${s.slice(4,6)}-${s.slice(6,8)}`;
+      return s;
+    };
     const formatMoney = (n) => {
       if (!n) return '$0';
       if (n >= 1e9) return `$${(n/1e9).toFixed(2)}B`;
@@ -123,7 +129,7 @@
               </div>
               <div class="npi">NPI: ${m.npi} · ${profile.city || ''}, ${profile.state || ''}</div>
               <ul class="evidence-list">
-                <li class="critical">Excluded from federal programs: ${m.EXCLDATE?.slice(0,4)}-${m.EXCLDATE?.slice(4,6)}-${m.EXCLDATE?.slice(6,8)}</li>
+                <li class="critical">Excluded from federal programs: ${formatDate(m.EXCLDATE)}</li>
                 <li class="critical">Exclusion type: ${m.EXCLTYPE} (${getExclusionDesc(m.EXCLTYPE)})</li>
                 <li class="critical" style="font-size:1.1rem;font-weight:bold">Paid while excluded: ${formatMoney(m.total_paid_while_excluded)}</li>
               </ul>

@@ -5,20 +5,10 @@
     "impossible_volume": 500,
     "ghost_patient_patterns": 95,
     "oig_excluded_count": 1,
-    "providers_with_spikes": 49
+    "providers_with_spikes": 49,
+    "oig_billing_while_excluded": 7,
+    "total_paid_to_excluded_providers": 300015.72
   },
-  "oig_matches": [
-    {
-      "npi": "1952915910",
-      "LASTNAME": "WILLIAMS",
-      "FIRSTNAME": "LORI",
-      "BUSNAME": null,
-      "EXCLTYPE": "1128a1",
-      "EXCLDATE": 20260120,
-      "REINDATE": "00000000",
-      "total_paid_while_excluded": 716795.12
-    }
-  ],
   "high_risk_procedures": [
     {
       "HCPCS_CODE": "T1019",
@@ -9460,6 +9450,120 @@
       "top_procedures": [],
       "suspicious_spikes": [],
       "peer_comparison": null
+    }
+  ],
+  "oig_post_exclusion_billing": [
+    {
+      "npi": "1093904914",
+      "provider_name": "GARY SMITH",
+      "specialty": "GENERAL PRACTICE",
+      "address": "105 INDIA DRIVE, TRION, GA 30753",
+      "city": "TRION",
+      "state": "GA",
+      "exclusion_date": "20210525",
+      "exclusion_type": "1128b7",
+      "first_claim_after_exclusion": "2021-05",
+      "last_claim_after_exclusion": "2024-12",
+      "months_billing_while_excluded": 44,
+      "total_paid_while_excluded": 284460.87,
+      "total_claims_while_excluded": 11430,
+      "beneficiaries_affected": 9768
+    },
+    {
+      "npi": "1699721829",
+      "provider_name": "PERRY RUDICH",
+      "specialty": "RADIOLOGY",
+      "address": "2600 BOB-O-LINK LANE, NORTHBROOK, IL 60062",
+      "city": "NORTHBROOK",
+      "state": "IL",
+      "exclusion_date": "20231215",
+      "exclusion_type": "1128b7",
+      "first_claim_after_exclusion": "2023-12",
+      "last_claim_after_exclusion": "2023-12",
+      "months_billing_while_excluded": 1,
+      "total_paid_while_excluded": 6593.82,
+      "total_claims_while_excluded": 110,
+      "beneficiaries_affected": 99
+    },
+    {
+      "npi": "1952744559",
+      "provider_name": "CRESCENT ACADEMY, INC",
+      "specialty": "MENTAL/BEHAVIORAL HE",
+      "address": "2550 NATURE PARK DRIVE, SUITE, NORTH LAS VEGAS, NV 89084",
+      "city": "NORTH LAS VEGAS",
+      "state": "NV",
+      "exclusion_date": "20220320",
+      "exclusion_type": "1128a1",
+      "first_claim_after_exclusion": "2022-03",
+      "last_claim_after_exclusion": "2022-03",
+      "months_billing_while_excluded": 1,
+      "total_paid_while_excluded": 5665.68,
+      "total_claims_while_excluded": 98,
+      "beneficiaries_affected": 15
+    },
+    {
+      "npi": "1871606244",
+      "provider_name": "JEFFREY GARNER",
+      "specialty": "OPTOMETRY",
+      "address": "1323 24TH STREET, SE, CEDAR RAPIDS, IA 52403",
+      "city": "CEDAR RAPIDS",
+      "state": "IA",
+      "exclusion_date": "20181120",
+      "exclusion_type": "1128b14",
+      "first_claim_after_exclusion": "2018-11",
+      "last_claim_after_exclusion": "2018-11",
+      "months_billing_while_excluded": 1,
+      "total_paid_while_excluded": 1865,
+      "total_claims_while_excluded": 27,
+      "beneficiaries_affected": 27
+    },
+    {
+      "npi": "1972519056",
+      "provider_name": "SCOTT CALE",
+      "specialty": "DENTIST",
+      "address": "4 PUTNAM AVENUE, 1, CHELMSFORD, MA 01824",
+      "city": "CHELMSFORD",
+      "state": "MA",
+      "exclusion_date": "20241120",
+      "exclusion_type": "1128a1",
+      "first_claim_after_exclusion": "2024-11",
+      "last_claim_after_exclusion": "2024-11",
+      "months_billing_while_excluded": 1,
+      "total_paid_while_excluded": 720,
+      "total_claims_while_excluded": 12,
+      "beneficiaries_affected": 12
+    },
+    {
+      "npi": "1346460094",
+      "provider_name": "DIANA GALLARDO",
+      "specialty": "DENTIST",
+      "address": "P O BOX 9508, CAGUAS, PR 00726",
+      "city": "CAGUAS",
+      "state": "PR",
+      "exclusion_date": "20220720",
+      "exclusion_type": "1128a1",
+      "first_claim_after_exclusion": "2022-07",
+      "last_claim_after_exclusion": "2022-09",
+      "months_billing_while_excluded": 2,
+      "total_paid_while_excluded": 420.78999999999996,
+      "total_claims_while_excluded": 30,
+      "beneficiaries_affected": 29
+    },
+    {
+      "npi": "1013009729",
+      "provider_name": "HAILU KABTIMER",
+      "specialty": "INTERNAL MEDICINE",
+      "address": "107 WINDSTAR BAY BLVD, APT 16, HENDERSONVILLE, TN 37075",
+      "city": "HENDERSONVILLE",
+      "state": "TN",
+      "exclusion_date": "20180419",
+      "exclusion_type": "1128a1",
+      "first_claim_after_exclusion": "2018-04",
+      "last_claim_after_exclusion": "2018-04",
+      "months_billing_while_excluded": 1,
+      "total_paid_while_excluded": 289.56,
+      "total_claims_while_excluded": 50,
+      "beneficiaries_affected": 42
     }
   ]
 }

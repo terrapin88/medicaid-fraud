@@ -112,26 +112,29 @@
     
     function render(stats, flags, deep) {
       const totalFlagged = flags.summary.high_volume_outliers + flags.summary.impossible_volume + flags.summary.ghost_patient_patterns;
-      const oigCount = deep.oig_matches?.length || 0;
+      const oigCount = deep.oig_post_exclusion_billing?.length || 0;
       const spikeCount = deep.summary?.providers_with_spikes || 0;
       
       // Build OIG alert section if matches exist
       let oigAlert = '';
       if (oigCount > 0) {
-        const oigMatches = deep.oig_matches.map(m => {
-          const profile = deep.enhanced_profiles?.find(p => p.npi === m.npi) || {};
+        const totalPaidExcluded = deep.summary?.total_paid_to_excluded_providers || 0;
+        const oigMatches = deep.oig_post_exclusion_billing.map(m => {
           return `
             <div class="provider-card">
               <div class="provider-name" style="font-size:1.1rem">
                 <a href="https://npiregistry.cms.hhs.gov/provider-view/${m.npi}" target="_blank" style="color:var(--critical)">
-                  ${profile.provider_name || m.BUSNAME || m.LASTNAME || 'Unknown'}
+                  ${m.provider_name || 'Unknown'}
                 </a>
+                <span class="type-tag">${m.specialty || ''}</span>
               </div>
-              <div class="npi">NPI: ${m.npi} · ${profile.city || ''}, ${profile.state || ''}</div>
+              <div class="npi">NPI: ${m.npi} · ${m.address || ''}</div>
               <ul class="evidence-list">
-                <li class="critical">Excluded from federal programs: ${formatDate(m.EXCLDATE)}</li>
-                <li class="critical">Exclusion type: ${m.EXCLTYPE} (${getExclusionDesc(m.EXCLTYPE)})</li>
-                <li class="critical" style="font-size:1.1rem;font-weight:bold">Paid while excluded: ${formatMoney(m.total_paid_while_excluded)}</li>
+                <li class="critical">Excluded from federal programs: ${formatDate(m.exclusion_date)}</li>
+                <li class="critical">Exclusion type: ${m.exclusion_type} (${getExclusionDesc(m.exclusion_type)})</li>
+                <li class="critical">Billed Medicaid: ${m.first_claim_after_exclusion} to ${m.last_claim_after_exclusion} (${m.months_billing_while_excluded} months)</li>
+                <li class="critical">${formatNumber(m.beneficiaries_affected)} patients affected</li>
+                <li class="critical" style="font-size:1.1rem;font-weight:bold">💰 PAID WHILE EXCLUDED: ${formatMoney(m.total_paid_while_excluded)}</li>
               </ul>
             </div>
           `;
@@ -140,7 +143,8 @@
         oigAlert = `
           <div class="critical-alert">
             <h2>🚨 CRITICAL: Excluded Providers Billing Medicaid</h2>
-            <p>The following providers appear on the OIG List of Excluded Individuals/Entities (LEIE) but have received Medicaid payments. This is a federal crime under 42 U.S.C. § 1320a-7b.</p>
+            <p>The following ${oigCount} providers appear on the OIG List of Excluded Individuals/Entities (LEIE) but continued receiving Medicaid payments <strong>after</strong> their exclusion date. This is a federal crime under 42 U.S.C. § 1320a-7b.</p>
+            <p style="font-size:1.2rem;margin-top:1rem;color:var(--critical)"><strong>Total paid to excluded providers: ${formatMoney(totalPaidExcluded)}</strong></p>
             ${oigMatches}
           </div>
         `;

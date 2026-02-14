@@ -1,0 +1,90 @@
+{
+  "verified_at": "2026-02-14T17:28:48.604Z",
+  "cases": [
+    {
+      "npi": "1982736492",
+      "name": "WE CARE TRANSPORTATION",
+      "STATE": "KS",
+      "excl_date": 20100120,
+      "rein_date": 99999999,
+      "EXCLTYPE": "1128b5",
+      "first_bill": "2018-01",
+      "last_bill": "2020-07",
+      "total_paid": 4441512.920000002,
+      "total_claims": 74955,
+      "paid_while_excluded": 4441512.920000002,
+      "claims_while_excluded": 74955
+    },
+    {
+      "npi": "1871571406",
+      "name": "MOHAMED ASWAD",
+      "STATE": "NM",
+      "excl_date": 20160120,
+      "rein_date": 99999999,
+      "EXCLTYPE": "1128a1",
+      "first_bill": "2018-01",
+      "last_bill": "2022-07",
+      "total_paid": 674214.1799999999,
+      "total_claims": 10409,
+      "paid_while_excluded": 674214.1799999999,
+      "claims_while_excluded": 10409
+    },
+    {
+      "npi": "1093904914",
+      "name": "GARY SMITH",
+      "STATE": "GA",
+      "excl_date": 20210525,
+      "rein_date": 99999999,
+      "EXCLTYPE": "1128b7",
+      "first_bill": "2018-01",
+      "last_bill": "2024-12",
+      "total_paid": 678430.03,
+      "total_claims": 26861,
+      "paid_while_excluded": 271596.05000000005,
+      "claims_while_excluded": 10988
+    },
+    {
+      "npi": "1821269275",
+      "name": "TWIN CITIES CARE SERVICES",
+      "STATE": "MN",
+      "excl_date": 20170620,
+      "rein_date": 99999999,
+      "EXCLTYPE": "1128a1",
+      "first_bill": "2024-10",
+      "last_bill": "2024-11",
+      "total_paid": 116030.95,
+      "total_claims": 763,
+      "paid_while_excluded": 116030.95,
+      "claims_while_excluded": 763
+    },
+    {
+      "npi": "1346352531",
+      "name": "MELVIN EHRLICH",
+      "STATE": "MA",
+      "excl_date": 20160818,
+      "rein_date": 99999999,
+      "EXCLTYPE": "1128b4",
+      "first_bill": "2018-09",
+      "last_bill": "2018-10",
+      "total_paid": 90572.82,
+      "total_claims": 2361,
+      "paid_while_excluded": 90572.82,
+      "claims_while_excluded": 2361
+    },
+    {
+      "npi": "1346460094",
+      "name": "DIANA GALLARDO",
+      "STATE": "PR",
+      "excl_date": 20220720,
+      "rein_date": 99999999,
+      "EXCLTYPE": "1128a1",
+      "first_bill": "2019-05",
+      "last_bill": "2022-09",
+      "total_paid": 19464.11,
+      "total_claims": 1056,
+      "paid_while_excluded": 203.14,
+      "claims_while_excluded": 14
+    }
+  ],
+  "total_fraud": 5594130.060000001
+}

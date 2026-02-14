@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-02-14T17:29:56.426Z",
+  "status": "PASSED",
+  "summary": {
+    "errors": 0,
+    "warnings": 6,
+    "validations_passed": 15,
+    "validations_warned": 0
+  },
+  "errors": [],
+  "warnings": [
+    "NPI 1982736492 (WE CARE TRANSPORTATION) not found in NPPES - may be deactivated",
+    "NPI 1871571406 (MOHAMED ASWAD) not found in NPPES - may be deactivated",
+    "NPI 1093904914 (GARY SMITH) not found in NPPES - may be deactivated",
+    "NPI 1821269275 (TWIN CITIES CARE SERVICES) not found in NPPES - may be deactivated",
+    "NPI 1346352531 (MELVIN EHRLICH) not found in NPPES - may be deactivated",
+    "NPI 1346460094 (DIANA GALLARDO) not found in NPPES - may be deactivated"
+  ],
+  "validations": [
+    {
+      "check": "Medicaid data file exists",
+      "result": "PASS",
+      "details": "Size: 2.94 GB"
+    },
+    {
+      "check": "OIG exclusion list loaded",
+      "result": "PASS",
+      "details": "82,714 exclusions"
+    },
+    {
+      "check": "OIG exclusion verified for 1982736492",
+      "result": "PASS",
+      "details": "Excluded: 20100120, Type: 1128b5"
+    },
+    {
+      "check": "OIG exclusion verified for 1871571406",
+      "result": "PASS",
+      "details": "Excluded: 20160120, Type: 1128a1"
+    },
+    {
+      "check": "OIG exclusion verified for 1093904914",
+      "result": "PASS",
+      "details": "Excluded: 20210525, Type: 1128b7"
+    },
+    {
+      "check": "OIG exclusion verified for 1821269275",
+      "result": "PASS",
+      "details": "Excluded: 20170620, Type: 1128a1"
+    },
+    {
+      "check": "OIG exclusion verified for 1346352531",
+      "result": "PASS",
+      "details": "Excluded: 20160818, Type: 1128b4"
+    },
+    {
+      "check": "OIG exclusion verified for 1346460094",
+      "result": "PASS",
+      "details": "Excluded: 20220720, Type: 1128a1"
+    },
+    {
+      "check": "Date logic for 1821269275",
+      "result": "PASS",
+      "details": "ALL billing (2024-10 to 2024-11) after exclusion (2017-06)"
+    },
+    {
+      "check": "Date logic for 1346352531",
+      "result": "PASS",
+      "details": "ALL billing (2018-09 to 2018-10) after exclusion (2016-08)"
+    },
+    {
+      "check": "Date logic for 1093904914",
+      "result": "PASS",
+      "details": "Excluded: 2021-05, Billing: 2018-01 to 2024-12 (some pre-exclusion billing expected)"
+    },
+    {
+      "check": "Date logic for 1982736492",
+      "result": "PASS",
+      "details": "ALL billing (2018-01 to 2020-07) after exclusion (2010-01)"
+    },
+    {
+      "check": "Date logic for 1871571406",
+      "result": "PASS",
+      "details": "ALL billing (2018-01 to 2022-07) after exclusion (2016-01)"
+    },
+    {
+      "check": "Date logic for 1346460094",
+      "result": "PASS",
+      "details": "Excluded: 2022-07, Billing: 2019-05 to 2022-09 (some pre-exclusion billing expected)"
+    },
+    {
+      "check": "Total paid matches",
+      "result": "PASS",
+      "details": "$1.09 trillion"
+    }
+  ]
+}

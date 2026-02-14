@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-02-14T16:56:14.567Z",
+  "generated_at": "2026-02-14T18:24:39.025Z",
   "summary": {
     "high_volume_outliers": 1000,
     "impossible_volume": 500,
     "ghost_patient_patterns": 95,
     "oig_excluded_count": 1,
     "providers_with_spikes": 49,
-    "oig_billing_while_excluded": 7,
-    "total_paid_to_excluded_providers": 300015.72
+    "oig_billing_while_excluded": 6,
+    "total_paid_to_excluded_providers": 5594130.06
   },
   "high_risk_procedures": [
     {
@@ -9565,5 +9565,74 @@
       "total_claims_while_excluded": 50,
       "beneficiaries_affected": 42
     }
-  ]
+  ],
+  "verified_oig_fraud": [
+    {
+      "npi": "1982736492",
+      "name": "WE CARE TRANSPORTATION",
+      "state": "KS",
+      "exclusion_date": "2010-01-20",
+      "exclusion_type": "1128b5",
+      "paid_while_excluded": 4441512.92,
+      "claims_while_excluded": 74955,
+      "billing_period": "2018-01 to 2020-07",
+      "verified": true
+    },
+    {
+      "npi": "1871571406",
+      "name": "MOHAMED ASWAD",
+      "state": "NM",
+      "exclusion_date": "2016-01-20",
+      "exclusion_type": "1128a1",
+      "paid_while_excluded": 674214.18,
+      "claims_while_excluded": 10409,
+      "billing_period": "2018-01 to 2022-07",
+      "verified": true
+    },
+    {
+      "npi": "1093904914",
+      "name": "GARY SMITH",
+      "state": "GA",
+      "exclusion_date": "2021-05-25",
+      "exclusion_type": "1128b7",
+      "paid_while_excluded": 271596.05,
+      "claims_while_excluded": 10988,
+      "billing_period": "2018-01 to 2024-12",
+      "verified": true
+    },
+    {
+      "npi": "1821269275",
+      "name": "TWIN CITIES CARE SERVICES",
+      "state": "MN",
+      "exclusion_date": "2017-06-20",
+      "exclusion_type": "1128a1",
+      "paid_while_excluded": 116030.95,
+      "claims_while_excluded": 763,
+      "billing_period": "2024-10 to 2024-11",
+      "verified": true
+    },
+    {
+      "npi": "1346352531",
+      "name": "MELVIN EHRLICH",
+      "state": "MA",
+      "exclusion_date": "2016-08-18",
+      "exclusion_type": "1128b4",
+      "paid_while_excluded": 90572.82,
+      "claims_while_excluded": 2361,
+      "billing_period": "2018-09 to 2018-10",
+      "verified": true
+    },
+    {
+      "npi": "1346460094",
+      "name": "DIANA GALLARDO",
+      "state": "PR",
+      "exclusion_date": "2022-07-20",
+      "exclusion_type": "1128a1",
+      "paid_while_excluded": 203.14,
+      "claims_while_excluded": 14,
+      "billing_period": "2019-05 to 2022-09",
+      "verified": true
+    }
+  ],
+  "validation_status": "VERIFIED"
 }

@@ -81,9 +81,9 @@
     async function loadData() {
       try {
         const [statsRes, flagsRes, deepRes] = await Promise.all([
-          fetch('basic-stats.json'),
-          fetch('fraud-flags.json'),
-          fetch('deep-analysis.json').catch(() => ({ json: () => ({}) }))
+          fetch('basic-stats.json?v=' + Date.now()),
+          fetch('fraud-flags.json?v=' + Date.now()),
+          fetch('deep-analysis.json?v=' + Date.now()).catch(() => ({ json: () => ({}) }))
         ]);
         const stats = await statsRes.json();
         const flags = await flagsRes.json();
